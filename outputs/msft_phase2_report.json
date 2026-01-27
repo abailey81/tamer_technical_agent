@@ -1,0 +1,152 @@
+{
+  "symbol": "MSFT",
+  "period": [
+    "2015-01-02",
+    "2026-01-23"
+  ],
+  "volatility_regime": "HIGH",
+  "regime_adjusted": true,
+  "overall_signal": "SELL",
+  "overall_confidence": 0.5524153789129713,
+  "signal_strength": "WEAK",
+  "bullish_count": 0,
+  "bearish_count": 2,
+  "neutral_count": 3,
+  "recommendation": "NO TRADE: Weak or conflicting signals. Preserve capital and wait for better opportunity. (2 bearish divergence(s) confirm sell signal)",
+  "risk_factors": [],
+  "families": {
+    "momentum": {
+      "signal": "NEUTRAL",
+      "confidence": 0.5,
+      "weight": 0.25,
+      "indicators": {
+        "rsi": {
+          "direction": "NEUTRAL",
+          "confidence": 0.5,
+          "value": 46.05042533731414,
+          "zone": "NEUTRAL"
+        },
+        "stochastic": {
+          "direction": "NEUTRAL",
+          "confidence": 0.5,
+          "value": 29.504780407506995,
+          "zone": "NEUTRAL"
+        },
+        "williams_r": {
+          "direction": "NEUTRAL",
+          "confidence": 0.5,
+          "value": -46.55035458277905,
+          "zone": "NEUTRAL"
+        }
+      }
+    },
+    "trend": {
+      "signal": "NEUTRAL",
+      "confidence": 0.5833333333333334,
+      "weight": 0.25,
+      "indicators": {
+        "macd": {
+          "direction": "SELL",
+          "confidence": 0.6,
+          "value": -8.214004241373914,
+          "zone": "BEARISH"
+        },
+        "adx": {
+          "direction": "NEUTRAL",
+          "confidence": 0.4,
+          "value": 25.461192545090142,
+          "zone": "WEAK_BEARISH"
+        },
+        "supertrend": {
+          "direction": "BUY",
+          "confidence": 0.75,
+          "value": 428.2830108642578,
+          "zone": "UPTREND"
+        }
+      }
+    },
+    "volatility": {
+      "signal": "NEUTRAL",
+      "confidence": 0.525,
+      "weight": 0.15,
+      "indicators": {
+        "bollinger": {
+          "direction": "NEUTRAL",
+          "confidence": 0.5,
+          "value": 0.40421674299228605,
+          "zone": "MIDDLE_LOWER"
+        },
+        "keltner": {
+          "direction": "SELL",
+          "confidence": 0.55,
+          "value": 0.4447538865567023,
+          "zone": "MIDDLE_LOWER"
+        }
+      }
+    },
+    "volume": {
+      "signal": "SELL",
+      "confidence": 0.5666666666666668,
+      "weight": 0.15,
+      "indicators": {
+        "obv": {
+          "direction": "SELL",
+          "confidence": 0.65,
+          "value": 2693865700.0,
+          "zone": "DISTRIBUTION"
+        },
+        "mfi": {
+          "direction": "SELL",
+          "confidence": 0.55,
+          "value": 45.40175133259495,
+          "zone": "BEARISH"
+        },
+        "cmf": {
+          "direction": "NEUTRAL",
+          "confidence": 0.5,
+          "value": 0.0034747840857682977,
+          "zone": "NEUTRAL"
+        }
+      }
+    },
+    "system": {
+      "signal": "STRONG_SELL",
+      "confidence": 0.9,
+      "weight": 0.2,
+      "indicators": {
+        "ichimoku": {
+          "direction": "STRONG_SELL",
+          "confidence": 0.9,
+          "value": -3,
+          "zone": "STRONG_BEARISH"
+        }
+      }
+    }
+  },
+  "divergences": [
+    {
+      "type": "HIDDEN_BEARISH",
+      "indicator": "RSI",
+      "strength": 0.03924091065191426,
+      "bars": 15
+    },
+    {
+      "type": "HIDDEN_BEARISH",
+      "indicator": "MACD",
+      "strength": 0.30865965909356036,
+      "bars": 15
+    }
+  ],
+  "key_levels": {
+    "bb_upper": 503.1338069137928,
+    "bb_middle": 471.92799987792966,
+    "bb_lower": 440.72219284206653,
+    "kc_upper": 488.64384937439075,
+    "kc_lower": 447.77217712327644,
+    "ichimoku_cloud_top": 509.30499267578125,
+    "ichimoku_cloud_bottom": 485.80249786376953,
+    "supertrend": 428.2830108642578
+  },
+  "generated_at": "2026-01-26T23:22:03.542903",
+  "version": "2.0.0"
+}

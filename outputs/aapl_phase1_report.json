@@ -1,0 +1,40 @@
+{
+  "symbol": "AAPL",
+  "company_name": "Apple Inc.",
+  "sector": "Technology",
+  "industry": "Consumer Electronics",
+  "period": [
+    "2015-01-01",
+    "2026-01-26"
+  ],
+  "quality": {
+    "completeness": 100,
+    "accuracy": 94.10071942446044,
+    "consistency": 100,
+    "timeliness": 100,
+    "overall": 98.23021582733813,
+    "grade": "EXCELLENT",
+    "issues": [],
+    "warnings": [
+      "Return outliers: 164 (5.9%)"
+    ]
+  },
+  "profile": {
+    "annualized_return": 0.24144200716032926,
+    "annualized_volatility": 0.28811599670827953,
+    "sharpe_ratio": 0.6991698116793265,
+    "sortino_ratio": 0.9668340603180018,
+    "skewness": 0.14627310819474545,
+    "kurtosis": 6.585010020818345,
+    "hurst_exponent": 0.5989725475938271,
+    "trend_character": "TRENDING"
+  },
+  "provenance": {
+    "source": "yahoo_finance",
+    "fetch_timestamp": "2026-01-26T23:21:19.743237",
+    "data_hash": "53a03ab522802702",
+    "version": "1.0.0"
+  },
+  "processing_time_ms": 4408.337347005727,
+  "generated_at": "2026-01-26T23:21:23.593533"
+}

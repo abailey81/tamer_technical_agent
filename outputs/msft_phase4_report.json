@@ -1,0 +1,72 @@
+{
+  "symbol": "MSFT",
+  "strategy": "Trend-Following with Crash Protection",
+  "status": "SUCCESS",
+  "period": {
+    "start": "2015-01-02T00:00:00",
+    "end": "2026-01-23T00:00:00",
+    "trading_days": 2781
+  },
+  "capital": {
+    "initial": 100000,
+    "final": 214532.46130484497,
+    "total_return": 1.1453246130484498
+  },
+  "coursework_metrics": {
+    "cagr": 0.0716135639217208,
+    "sharpe_ratio": 0.09341246499800876,
+    "max_drawdown": 0.5268251303601507,
+    "hit_rate": 0.20512820512820512
+  },
+  "returns": {
+    "cagr": 0.0716135639217208,
+    "annual_return": 0.10066884729643322,
+    "best_day": 0.14136888119914381,
+    "worst_day": -0.09483829239823705,
+    "positive_days": 1239,
+    "negative_days": 1187
+  },
+  "risk": {
+    "annual_volatility": 0.23137772803856024,
+    "max_drawdown": 0.5268251303601507,
+    "avg_drawdown": 0.1633559569842806,
+    "var_95": -0.02266846727293359,
+    "cvar_95": -0.03536180689346388
+  },
+  "risk_adjusted": {
+    "sharpe_ratio": 0.09341246499800876,
+    "sortino_ratio": 0.11738634239772046,
+    "calmar_ratio": 0.13593422142327188,
+    "omega_ratio": 1.0399992640801898
+  },
+  "trades": {
+    "total": 78,
+    "winning": 16,
+    "losing": 62,
+    "hit_rate": 0.20512820512820512,
+    "profit_factor": 1.6387755129109,
+    "avg_win": 18162.708319899957,
+    "avg_loss": 2860.154119487731,
+    "expectancy": 1452.2279193610257,
+    "total_costs": 12480.0
+  },
+  "walk_forward": {
+    "n_periods": 5,
+    "avg_oos_return": 0.059566009040661914,
+    "avg_oos_sharpe": 0.2398391995163866,
+    "wfe_ratio": 1.6402347308000629,
+    "is_robust": "True"
+  },
+  "monte_carlo": {
+    "n_simulations": 500,
+    "return_mean": 2.0271120476382425,
+    "return_95_ci": [
+      -0.37881378199228116,
+      7.606751396476947
+    ],
+    "sharpe_mean": 0.2651993449448761,
+    "prob_positive_return": 0.868
+  },
+  "execution_time_ms": 156.11505508422852,
+  "version": "2.0.0"
+}

@@ -1,0 +1,40 @@
+{
+  "symbol": "MSFT",
+  "company_name": "Microsoft Corporation",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "period": [
+    "2015-01-01",
+    "2026-01-26"
+  ],
+  "quality": {
+    "completeness": 100,
+    "accuracy": 94.64028776978417,
+    "consistency": 100,
+    "timeliness": 100,
+    "overall": 98.39208633093526,
+    "grade": "EXCELLENT",
+    "issues": [],
+    "warnings": [
+      "Return outliers: 149 (5.4%)"
+    ]
+  },
+  "profile": {
+    "annualized_return": 0.24459954380822233,
+    "annualized_volatility": 0.2689643973669063,
+    "sharpe_ratio": 0.7606937788465697,
+    "sortino_ratio": 1.051605067853443,
+    "skewness": 0.1632743664551773,
+    "kurtosis": 7.9111422751970935,
+    "hurst_exponent": 0.549818234385072,
+    "trend_character": "RANDOM_WALK"
+  },
+  "provenance": {
+    "source": "yahoo_finance",
+    "fetch_timestamp": "2026-01-26T23:22:00.164920",
+    "data_hash": "48660e8eb1437ee8",
+    "version": "1.0.0"
+  },
+  "processing_time_ms": 3362.5240990077145,
+  "generated_at": "2026-01-26T23:22:03.097382"
+}

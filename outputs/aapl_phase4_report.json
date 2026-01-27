@@ -1,0 +1,72 @@
+{
+  "symbol": "AAPL",
+  "strategy": "Trend-Following with Crash Protection",
+  "status": "SUCCESS",
+  "period": {
+    "start": "2015-01-02T00:00:00",
+    "end": "2026-01-23T00:00:00",
+    "trading_days": 2781
+  },
+  "capital": {
+    "initial": 100000,
+    "final": 745476.098560028,
+    "total_return": 6.45476098560028
+  },
+  "coursework_metrics": {
+    "cagr": 0.19965255430784357,
+    "sharpe_ratio": 0.6584365684159361,
+    "max_drawdown": 0.37297772990166767,
+    "hit_rate": 0.3442622950819672
+  },
+  "returns": {
+    "cagr": 0.19965255430784357,
+    "annual_return": 0.2310633757573859,
+    "best_day": 0.10468863124271488,
+    "worst_day": -0.09325610346452684,
+    "positive_days": 1187,
+    "negative_days": 1100
+  },
+  "risk": {
+    "annual_volatility": 0.22728469451184502,
+    "max_drawdown": 0.37297772990166767,
+    "avg_drawdown": 0.09314574352027621,
+    "var_95": -0.022494745556950302,
+    "cvar_95": -0.03357624291606686
+  },
+  "risk_adjusted": {
+    "sharpe_ratio": 0.6584365684159361,
+    "sortino_ratio": 0.8436770287480604,
+    "calmar_ratio": 0.5352934995890511,
+    "omega_ratio": 1.146354318575478
+  },
+  "trades": {
+    "total": 61,
+    "winning": 21,
+    "losing": 40,
+    "hit_rate": 0.3442622950819672,
+    "profit_factor": 3.165043484427871,
+    "avg_win": 17913.032585842575,
+    "avg_loss": 2971.315292771508,
+    "expectancy": 4218.378239210389,
+    "total_costs": 9760.0
+  },
+  "walk_forward": {
+    "n_periods": 5,
+    "avg_oos_return": 0.1226077483855303,
+    "avg_oos_sharpe": 0.9059232877974204,
+    "wfe_ratio": 1.7378991780699655,
+    "is_robust": "True"
+  },
+  "monte_carlo": {
+    "n_simulations": 500,
+    "return_mean": 10.1443128197946,
+    "return_95_ci": [
+      0.7424187838655496,
+      39.513485307396124
+    ],
+    "sharpe_mean": 0.8547783323857703,
+    "prob_positive_return": 0.998
+  },
+  "execution_time_ms": 171.90098762512207,
+  "version": "2.0.0"
+}

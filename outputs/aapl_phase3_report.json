@@ -1,0 +1,52 @@
+{
+  "symbol": "AAPL",
+  "analysis_date": "2026-01-26T23:23:20.424947",
+  "period_start": "2015-01-02T00:00:00",
+  "period_end": "2026-01-23T00:00:00",
+  "n_observations": 2780,
+  "hmm": {
+    "current_regime": "BULL",
+    "regime_probability": 0.5716803855210265,
+    "state_probabilities": {
+      "BEAR": 0.00395997502028522,
+      "BULL": 0.5716803855210265,
+      "SIDEWAYS": 0.4243596394586883
+    },
+    "expected_durations": {
+      "BEAR": 8.902592663994255,
+      "BULL": 14.485702604493214,
+      "SIDEWAYS": 12.008032153118156
+    },
+    "converged": true
+  },
+  "garch": {
+    "current_volatility": 0.23870251013051735,
+    "vol_regime": "NORMAL",
+    "persistence": 0.9546691477636025,
+    "forecast_5d": 0.24447394261045002
+  },
+  "hurst": {
+    "hurst_exponent": 0.5729354892462678,
+    "persistence": "WEAK_TRENDING",
+    "r_squared": 0.9976084834007043
+  },
+  "strategy": {
+    "strategy": "TREND_FOLLOWING",
+    "position_bias": "LONG",
+    "position_size": 0.6787840273110073,
+    "stop_loss_atr": 2.0,
+    "confidence": 0.6787840273110073,
+    "rationale": [
+      "Bull market with trending behavior favors trend-following",
+      "Volatility regime: NORMAL",
+      "Hurst exponent: 0.573 (WEAK_TRENDING)"
+    ],
+    "warnings": []
+  },
+  "quality": {
+    "score": 99.95216966801408,
+    "grade": "EXCELLENT"
+  },
+  "processing_time_ms": 116356,
+  "version": "2.0.0"
+}

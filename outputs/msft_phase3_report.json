@@ -1,0 +1,54 @@
+{
+  "symbol": "MSFT",
+  "analysis_date": "2026-01-26T23:23:28.288289",
+  "period_start": "2015-01-02T00:00:00",
+  "period_end": "2026-01-23T00:00:00",
+  "n_observations": 2780,
+  "hmm": {
+    "current_regime": "SIDEWAYS",
+    "regime_probability": 0.9192000789843845,
+    "state_probabilities": {
+      "BEAR": 0.07732327793115583,
+      "BULL": 0.0034766430844596404,
+      "SIDEWAYS": 0.9192000789843845
+    },
+    "expected_durations": {
+      "BEAR": 3.864231975724664,
+      "BULL": 21.94585310207074,
+      "SIDEWAYS": 15.481465453894355
+    },
+    "converged": true
+  },
+  "garch": {
+    "current_volatility": 0.24350908251409062,
+    "vol_regime": "NORMAL",
+    "persistence": 0.9484174924429684,
+    "forecast_5d": 0.2464144542510102
+  },
+  "hurst": {
+    "hurst_exponent": 0.5053747865829687,
+    "persistence": "RANDOM_WALK",
+    "r_squared": 0.9966816164818264
+  },
+  "strategy": {
+    "strategy": "NEUTRAL",
+    "position_bias": "NEUTRAL",
+    "position_size": 0.38660313278704367,
+    "stop_loss_atr": 1.5,
+    "confidence": 0.7732062655740873,
+    "rationale": [
+      "Sideways market - wait for clearer regime",
+      "Volatility regime: NORMAL",
+      "Hurst exponent: 0.505 (RANDOM_WALK)"
+    ],
+    "warnings": [
+      "Unclear market direction"
+    ]
+  },
+  "quality": {
+    "score": 99.93363232963652,
+    "grade": "EXCELLENT"
+  },
+  "processing_time_ms": 84713,
+  "version": "2.0.0"
+}

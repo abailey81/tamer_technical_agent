@@ -1,0 +1,504 @@
+{
+  "note_id": "TN-MSFT-20260126232444",
+  "symbol": "MSFT",
+  "company_name": "Microsoft Corporation",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "generated_at": "2026-01-26T23:24:44.266876",
+  "analysis_period": "2015-01-02 to 2026-01-23",
+  "total_records": 2781,
+  "recommendation": "HOLD",
+  "conviction": "LOW",
+  "confidence": 52.0,
+  "time_horizon": "1-4 weeks",
+  "risk_rating": "HIGH",
+  "current_price": 465.95001220703125,
+  "target_price": 522.5,
+  "expected_return": 12.14,
+  "entry": 465.95,
+  "stop_loss": 428.28,
+  "target_1": 485.0,
+  "target_2": 503.13,
+  "target_3": 522.5,
+  "risk_reward": 1.5011945845500394,
+  "position_size": 3.0,
+  "max_size": 6.0,
+  "sizing_method": "Half-Kelly Criterion",
+  "sizing_rationale": "Minimal exposure warranted given conflicting signals, weak technical conviction (55.2%), and elevated volatility environment with 26.9% annualized vol.",
+  "overall_score": 48,
+  "technical_score": 42,
+  "momentum_score": 50,
+  "trend_score": 58,
+  "volatility_score": 52,
+  "volume_score": 56,
+  "risk_score": 25,
+  "score_explanations": {
+    "overall": {
+      "score": 48,
+      "rating": "FAIR",
+      "interpretation": "Overall technical score of 48/100 indicates weak buy/sell conviction based on weighted indicator family analysis.",
+      "factors": [
+        "Weighted combination of all indicator families"
+      ]
+    },
+    "technical": {
+      "score": 42,
+      "rating": "FAIR",
+      "interpretation": "Technical structure score of 42/100 reflects price position relative to key levels, support/resistance zones, and chart pattern quality.",
+      "factors": [
+        "Price structure",
+        "Support/resistance levels"
+      ]
+    },
+    "momentum": {
+      "score": 50,
+      "rating": "FAIR",
+      "interpretation": "Momentum score of 50/100 measures RSI, Stochastic, and Williams %R conditions. Neutral momentum conditions.",
+      "factors": [
+        "RSI",
+        "Stochastic",
+        "Williams %R"
+      ]
+    },
+    "trend": {
+      "score": 58,
+      "rating": "FAIR",
+      "interpretation": "Trend score of 58/100 evaluates MACD, ADX, Supertrend, and Ichimoku alignment. Mixed trend signals.",
+      "factors": [
+        "MACD",
+        "ADX",
+        "Supertrend",
+        "Ichimoku"
+      ]
+    },
+    "volatility": {
+      "score": 52,
+      "rating": "FAIR",
+      "interpretation": "Volatility score of 52/100 assesses Bollinger Band position, Keltner Channel deviation, and ATR levels for risk sizing.",
+      "factors": [
+        "Bollinger Bands",
+        "Keltner Channels"
+      ]
+    },
+    "volume": {
+      "score": 56,
+      "rating": "FAIR",
+      "interpretation": "Volume score of 56/100 analyzes OBV trend, Money Flow Index, and Chaikin Money Flow for accumulation/distribution patterns.",
+      "factors": [
+        "OBV",
+        "MFI",
+        "CMF"
+      ]
+    },
+    "risk": {
+      "score": 25,
+      "rating": "POOR",
+      "interpretation": "Risk score of 25/100 quantifies drawdown exposure, VaR metrics, and volatility-adjusted return potential. Elevated risk requires position sizing discipline.",
+      "factors": [
+        "Max Drawdown",
+        "VaR",
+        "Volatility"
+      ]
+    }
+  },
+  "score_breakdown": {
+    "momentum": {
+      "signal": "NEUTRAL",
+      "confidence": 0.5,
+      "weight": 0.25,
+      "contribution": 12.5
+    },
+    "trend": {
+      "signal": "NEUTRAL",
+      "confidence": 0.5833333333333334,
+      "weight": 0.25,
+      "contribution": 14.583333333333334
+    },
+    "volatility": {
+      "signal": "NEUTRAL",
+      "confidence": 0.525,
+      "weight": 0.15,
+      "contribution": 7.875
+    },
+    "volume": {
+      "signal": "SELL",
+      "confidence": 0.5666666666666668,
+      "weight": 0.15,
+      "contribution": 8.5
+    },
+    "system": {
+      "signal": "STRONG_SELL",
+      "confidence": 0.9,
+      "weight": 0.2,
+      "contribution": 18.000000000000004
+    }
+  },
+  "data_quality_score": 98.39208633093526,
+  "data_quality_grade": "EXCELLENT",
+  "annual_return": 0.24459954380822233,
+  "annual_volatility": 0.2689643973669063,
+  "sharpe_ratio": 0.7606937788465697,
+  "sortino_ratio": 1.051605067853443,
+  "calmar_ratio": 0.6512847697760544,
+  "max_drawdown": -0.37556466105038566,
+  "hurst_exponent": 0.549818234385072,
+  "trend_character": "RANDOM_WALK",
+  "momentum_indicators": [
+    {
+      "name": "RSI",
+      "signal": "NEUTRAL",
+      "value": 46.05042533731414,
+      "zone": "NEUTRAL",
+      "confidence": 0.5
+    },
+    {
+      "name": "STOCHASTIC",
+      "signal": "NEUTRAL",
+      "value": 29.504780407506995,
+      "zone": "NEUTRAL",
+      "confidence": 0.5
+    },
+    {
+      "name": "WILLIAMS_R",
+      "signal": "NEUTRAL",
+      "value": -46.55035458277905,
+      "zone": "NEUTRAL",
+      "confidence": 0.5
+    }
+  ],
+  "trend_indicators": [
+    {
+      "name": "MACD",
+      "signal": "SELL",
+      "value": -8.214004241373914,
+      "zone": "BEARISH",
+      "confidence": 0.6
+    },
+    {
+      "name": "ADX",
+      "signal": "NEUTRAL",
+      "value": 25.461192545090142,
+      "zone": "WEAK_BEARISH",
+      "confidence": 0.4
+    },
+    {
+      "name": "SUPERTREND",
+      "signal": "BUY",
+      "value": 428.2830108642578,
+      "zone": "UPTREND",
+      "confidence": 0.75
+    }
+  ],
+  "volatility_indicators": [
+    {
+      "name": "BOLLINGER",
+      "signal": "NEUTRAL",
+      "value": 0.40421674299228605,
+      "zone": "MIDDLE_LOWER",
+      "confidence": 0.5
+    },
+    {
+      "name": "KELTNER",
+      "signal": "SELL",
+      "value": 0.4447538865567023,
+      "zone": "MIDDLE_LOWER",
+      "confidence": 0.55
+    }
+  ],
+  "volume_indicators": [
+    {
+      "name": "OBV",
+      "signal": "SELL",
+      "value": 2693865700.0,
+      "zone": "DISTRIBUTION",
+      "confidence": 0.65
+    },
+    {
+      "name": "MFI",
+      "signal": "SELL",
+      "value": 45.40175133259495,
+      "zone": "BEARISH",
+      "confidence": 0.55
+    },
+    {
+      "name": "CMF",
+      "signal": "NEUTRAL",
+      "value": 0.0034747840857682977,
+      "zone": "NEUTRAL",
+      "confidence": 0.5
+    }
+  ],
+  "divergences": [
+    {
+      "type": "HIDDEN_BEARISH",
+      "indicator": "RSI",
+      "strength": 0.03924091065191426,
+      "bars": 15
+    },
+    {
+      "type": "HIDDEN_BEARISH",
+      "indicator": "MACD",
+      "strength": 0.30865965909356036,
+      "bars": 15
+    }
+  ],
+  "backtest_total_return": 1.1453246130484498,
+  "backtest_cagr": 0.0716135639217208,
+  "backtest_volatility": 0.23137772803856024,
+  "backtest_max_dd": 0.5268251303601507,
+  "backtest_sharpe": 0.09341246499800876,
+  "backtest_sortino": 0.11738634239772046,
+  "backtest_calmar": 0.13593422142327188,
+  "backtest_total_trades": 78,
+  "backtest_winning_trades": 16,
+  "backtest_losing_trades": 62,
+  "backtest_hit_rate": 0.20512820512820512,
+  "backtest_profit_factor": 1.6387755129109,
+  "backtest_avg_win": 18162.708319899957,
+  "backtest_avg_loss": 2860.154119487731,
+  "backtest_expectancy": 1452.2279193610257,
+  "var_95": -0.02266846727293359,
+  "var_99": -0.029469007454813668,
+  "cvar_95": -0.03536180689346388,
+  "cvar_99": -0.045970348961503045,
+  "benchmark_symbol": "SPY",
+  "benchmark_correlation": 0,
+  "benchmark_correlation_1y": 0,
+  "benchmark_beta": 1.0,
+  "benchmark_beta_1y": 1.0,
+  "benchmark_alpha": 0,
+  "benchmark_info_ratio": 0,
+  "up_capture": 0,
+  "down_capture": 0,
+  "vix_current": 0,
+  "vix_regime": "NORMAL",
+  "vix_percentile": 0,
+  "market_context": "NEUTRAL",
+  "stationarity_adf": true,
+  "stationarity_kpss": true,
+  "normality_jb": false,
+  "autocorrelation_lb": false,
+  "arch_effects": false,
+  "stationarity_conclusion": "UNKNOWN",
+  "vol_close_to_close": 0,
+  "vol_parkinson": 0,
+  "vol_garman_klass": 0,
+  "vol_rogers_satchell": 0,
+  "vol_yang_zhang": 0,
+  "vol_composite": 0,
+  "vol_regime_p1": "NORMAL",
+  "skewness": 0.1632743664551773,
+  "kurtosis": 7.9111422751970935,
+  "var_95_daily": 0,
+  "var_99_daily": 0,
+  "cvar_95_daily": 0,
+  "market_regime": "UNKNOWN",
+  "regime_probability": 0,
+  "regime_confidence": 0,
+  "regime_prob_bull": 0,
+  "regime_prob_bear": 0,
+  "regime_prob_sideways": 0,
+  "regime_duration_bull": 0,
+  "regime_duration_bear": 0,
+  "regime_duration_sideways": 0,
+  "current_volatility": 0,
+  "volatility_regime": "NORMAL",
+  "volatility_percentile": 0,
+  "garch_omega": 0,
+  "garch_alpha": 0,
+  "garch_beta": 0,
+  "garch_persistence": 0,
+  "volatility_forecast_1d": 0,
+  "volatility_forecast_5d": 0,
+  "hurst_p3": 0.0,
+  "hurst_classification": "",
+  "hurst_r_squared": 0.9966816164818264,
+  "hurst_ci_lower": 0.0,
+  "hurst_ci_upper": 0.0,
+  "structural_breaks": 0,
+  "days_since_break": 0,
+  "cusum_statistic": 0,
+  "break_active": false,
+  "strategy_recommendation": "NEUTRAL",
+  "position_bias": "NEUTRAL",
+  "recommended_position_size": 0.38660313278704367,
+  "recommended_stop_loss_atr": 2.0,
+  "recommended_take_profit_atr": 4.0,
+  "max_holding_days": 20,
+  "strategy_confidence": 0.7732062655740873,
+  "strategy_rationale": "['Sideways market - wait for clearer regime', 'Volatility regime: NORMAL', 'Hurst exponent: 0.505 (RANDOM_WALK)']",
+  "regime_quality_score": 0,
+  "regime_quality_grade": "UNKNOWN",
+  "backtest_best_day": 0,
+  "backtest_worst_day": 0,
+  "backtest_positive_days": 0,
+  "backtest_positive_pct": 0,
+  "backtest_monthly_return": 0,
+  "backtest_skewness": 0.20629298713319727,
+  "backtest_kurtosis": 9.222729369816847,
+  "backtest_downside_vol": 0,
+  "backtest_avg_drawdown": 0,
+  "backtest_max_dd_duration": 0,
+  "backtest_omega": 1.0,
+  "backtest_alpha": 0,
+  "backtest_beta": 1.0,
+  "backtest_info_ratio": 0,
+  "backtest_payoff_ratio": 0,
+  "backtest_largest_win": 0,
+  "backtest_largest_loss": 0,
+  "backtest_avg_holding_days": 0,
+  "backtest_total_costs": 0,
+  "backtest_cost_per_trade": 0,
+  "backtest_cost_rate": 0,
+  "wf_periods": 0,
+  "wf_avg_is_return": 0.16704966177001998,
+  "wf_avg_oos_return": 0.059566009040661914,
+  "wf_avg_is_sharpe": 0.14622248572885627,
+  "wf_avg_oos_sharpe": 0.2398391995163866,
+  "wfe_ratio": 1.6402347308000629,
+  "walk_forward_consistency": 0.8,
+  "walk_forward_robust": false,
+  "mc_simulations": 500,
+  "monte_carlo_mean_return": 2.0271120476382425,
+  "mc_return_std": 2.674840040814834,
+  "mc_return_ci_lower": 0.0,
+  "mc_return_ci_upper": 0.0,
+  "mc_sharpe_mean": 0.2651993449448761,
+  "mc_sharpe_ci_lower": 0.0,
+  "mc_sharpe_ci_upper": 0.0,
+  "monte_carlo_p_positive": 0.0,
+  "mc_p_sharpe_above_1": 0.0,
+  "sizing_kelly_optimal": 0,
+  "sizing_kelly_half": 0,
+  "sizing_vol_scaled": 0,
+  "performance_grade": "UNKNOWN",
+  "risk_level": "UNKNOWN",
+  "alpha_confidence": 0,
+  "strategy_robustness": 0,
+  "alpha": 0,
+  "beta": 1.0,
+  "r_squared": 0,
+  "alpha_t_stat": 0,
+  "alpha_p_value": 1.0,
+  "alpha_significant": false,
+  "return_systematic": 0,
+  "return_idiosyncratic": 0,
+  "skill_contribution": 0,
+  "tracking_error": 0,
+  "information_ratio": 0,
+  "perf_bull_return": 0,
+  "perf_bull_sharpe": 0,
+  "perf_bull_max_dd": 0,
+  "perf_bull_days": 0,
+  "perf_bear_return": 0,
+  "perf_bear_sharpe": 0,
+  "perf_bear_max_dd": 0,
+  "perf_bear_days": 0,
+  "perf_sideways_return": 0,
+  "perf_sideways_sharpe": 0,
+  "perf_sideways_max_dd": 0,
+  "perf_sideways_days": 0,
+  "perf_low_vol_return": 0,
+  "perf_low_vol_sharpe": 0,
+  "perf_normal_vol_return": 0,
+  "perf_normal_vol_sharpe": 0,
+  "perf_high_vol_return": 0,
+  "perf_high_vol_sharpe": 0,
+  "perf_crisis_return": 0,
+  "perf_crisis_sharpe": 0,
+  "information_coefficient": 0.0,
+  "ic_t_stat": -2.0924675455620436,
+  "signal_quality_grade": "UNKNOWN",
+  "hit_rate_long": 0.5213711383834109,
+  "hit_rate_flat": 0.5587529976019184,
+  "signal_persistence": 0.0,
+  "annual_turnover": 0.0,
+  "stress_covid_crash": 0,
+  "stress_covid_recovery": 0,
+  "stress_2022_bear": 0,
+  "stress_2022_recovery": 0,
+  "stress_2018_q4": 0,
+  "stress_2018_recovery": 0,
+  "stress_tests_passed": 0,
+  "stress_tests_total": 0,
+  "total_drawdown_periods": 0,
+  "avg_drawdown_duration": 0,
+  "avg_recovery_time": 0,
+  "investment_thesis": "Microsoft presents a technically challenged setup at $465.95, trading within a conflicted technical environment that warrants extreme caution rather than aggressive positioning. The equity exhibits neutral momentum characteristics with RSI at 46.05 and Stochastic at 29.5, both residing in no-man's land without directional conviction, while the MACD histogram contraction at -8.21 below the zero line signals deteriorating bearish momentum. The Ichimoku system delivers a decisive STRONG_SELL signal with price positioned below the cloud (509.30-485.80 range), indicating the equity trades in a bearish regime despite maintaining position above the Kijun-sen, creating structural tension in the technical framework. Volume analysis reveals distribution pressure with OBV below its 21-day moving average and MFI registering 45.4 in bearish territory, suggesting institutional participants are reducing exposure at current levels. The identification of two hidden bearish divergences in both RSI and MACD (particularly the MACD divergence with 30.9% strength over 15 bars) provides confirmation that the current price structure lacks the momentum foundation necessary to sustain upside breakout attempts, making this a preserve-capital environment rather than a deployment opportunity.",
+  "executive_summary": "The technical architecture surrounding Microsoft at $465.95 generates a HOLD recommendation with LOW conviction (52% confidence) predicated on the preponderance of conflicting signals and absence of directional clarity across multiple analytical dimensions. The overall technical signal registers as WEAK SELL with only 55.2% confidence, insufficient threshold for initiating short exposure but adequate warning to avoid fresh long deployment, particularly given the system-level STRONG_SELL from Ichimoku analysis carrying 90% confidence. The risk/reward framework offers marginal attractiveness with stop-loss positioned at the Supertrend level of $428.28 (8.1% downside risk) against a target price of $522.50 that delivers 2.5:1 reward-to-risk, though the probability of target achievement remains constrained by bearish volume dynamics and momentum deterioration. The equity's 24.5% annual return profile and 0.76 Sharpe ratio demonstrate historical performance capability, yet current volatility expansion (Bollinger Bands widening) combined with price positioning at 40.4% of the band range suggests the equity remains vulnerable to continued mean-reversion pressure toward the $440.72 lower band. Position sizing of 3% reflects the elevated risk environment characterized by 37.6% maximum drawdown exposure and the presence of multiple technical headwinds that preclude aggressive capital allocation until clearer directional resolution emerges.",
+  "technical_analysis": "Microsoft's price structure at $465.95 reveals a security trapped in technical purgatory, positioned precariously between support and resistance zones without conviction in either direction. The equity trades 1.3% below the Bollinger middle band at $471.93 and 8.8% above the critical Supertrend support at $428.28, creating a wide 9.3% risk zone that reflects elevated uncertainty in the current market structure. Price resides 8.6% below the Ichimoku cloud (485.80-509.30), a technically significant bearish configuration, yet simultaneously maintains 8.1% clearance above Supertrend support, generating conflicting structural signals that paralyze directional conviction. The Keltner Channel positioning at 44.5% (below middle at $468.21) confirms bearish pressure, while ADX registration at 25.5 indicates weak trend strength insufficient to drive sustained directional movement. The MACD histogram contraction from bearish territory, combined with RSI momentum rising despite neutral 46.05 reading, suggests potential for short-term stabilization but lacks the technical firepower for breakout confirmation. Volume architecture presents the most concerning technical element, with OBV in distribution mode and MFI at 45.4 indicating money flow deterioration, while CMF neutrality at 0.003 provides no conviction signal. The presence of hidden bearish divergences in both RSI (15 bars) and MACD (15 bars, 30.9% strength) serves as technical confirmation that any rally attempts face structural headwinds from momentum exhaustion, making the $503.13 upper Bollinger Band and $509.30 cloud base formidable resistance levels that will require substantial volume confirmation to penetrate.",
+  "backtest_analysis": "The systematic strategy backtest reveals a technically profitable but operationally challenged trading framework that generated 114.5% total return (7.2% CAGR) over the evaluation period, though the underlying trade statistics expose significant execution difficulties that temper enthusiasm for the current setup. The strategy produced 78 total trades with a concerning 20.5% hit rate (16 winners, 62 losers), indicating the system captures infrequent but substantial moves while enduring extended periods of small losses, a characteristic that demands exceptional risk management discipline and psychological fortitude. The profit factor of 1.64 combined with average win of $18,163 versus average loss of $2,860 (6.3:1 win/loss ratio) demonstrates the strategy's reliance on asymmetric payoff capture rather than directional accuracy, with positive expectancy of $1,452 per trade providing mathematical edge despite low win rate. However, the 52.7% maximum drawdown represents a catastrophic risk metric that would trigger risk management intervention at most institutional desks, while the 0.09 Sharpe ratio and 0.14 Calmar ratio indicate severely suboptimal risk-adjusted returns that fall well below institutional acceptability thresholds of 1.0+ for equity strategies. The strategy's 23.1% volatility (lower than the security's 26.9% realized volatility) suggests some risk management benefit, yet the 9.2 kurtosis indicates fat-tailed return distribution with elevated crash risk. The current technical setup mirrors the challenging conditions that generated the strategy's 62 losing trades, characterized by weak directional signals and conflicting indicators that historically produced whipsaw losses, reinforcing the preserve-capital stance until clearer technical resolution emerges with stronger conviction signals above 70% threshold.",
+  "risk_analysis": "The risk architecture surrounding Microsoft at current levels presents an elevated-risk profile that demands defensive positioning and stringent risk controls, with Value-at-Risk metrics indicating substantial downside exposure in adverse market conditions. The 95% VaR of -2.27% and 99% VaR of -2.95% suggest that on the worst 5% and 1% of trading days respectively, the equity faces single-session losses approaching 3%, while the Conditional VaR (CVaR) metrics of -3.54% at 95% confidence and -4.60% at 99% confidence reveal that tail-risk events generate losses 50-60% larger than typical VaR estimates, indicating negative convexity in the return distribution. The 37.6% maximum drawdown represents existential portfolio risk that exceeds institutional risk tolerance parameters, particularly when combined with 26.9% annualized volatility that places the equity in the upper quartile of large-cap technology volatility profiles. The positive skewness of 0.16 provides modest comfort regarding upside asymmetry, yet the extreme kurtosis of 7.91 (versus normal distribution of 3.0) signals a leptokurtic return profile with fat tails and elevated probability of extreme moves in both directions, creating an unpredictable risk environment. The Sortino ratio of 1.05 (versus Sharpe of 0.76) indicates the equity demonstrates better risk-adjusted performance when measuring only downside deviation, suggesting skilled managers can harvest returns while managing tail risk, though current technical conditions lack the conviction signals necessary for confident deployment. The 8.1% distance to stop-loss at $428.28 represents acceptable single-position risk within a diversified portfolio context, yet the weak technical conviction (55.2%) and conflicting signals suggest probability-weighted expected loss exceeds the nominal stop distance, warranting reduced position sizing to 3% until technical clarity emerges with momentum confirmation above RSI 55, positive MACD crossover, and volume accumulation signals.",
+  "scenarios": [
+    {
+      "name": "Bull",
+      "probability": 0.25,
+      "target": 522.5,
+      "return_pct": 12.14,
+      "drivers": [
+        "Successful reclaim of Ichimoku cloud (509.30) with volume confirmation triggers momentum reversal",
+        "RSI breakout above 55 with positive MACD crossover generates systematic buy signals across momentum indicators",
+        "Institutional accumulation reverses OBV distribution pattern, driving MFI above 50 into bullish territory"
+      ],
+      "risks": [
+        "Resistance at upper Bollinger Band (503.13) and cloud base (509.30) creates 8% overhead supply zone requiring 2x average volume to penetrate"
+      ]
+    },
+    {
+      "name": "Base",
+      "probability": 0.5,
+      "target": 471.93,
+      "return_pct": 1.28,
+      "drivers": [
+        "Continued range-bound consolidation between Bollinger middle (471.93) and Keltner middle (468.21) as conflicting signals persist",
+        "Neutral momentum indicators (RSI 46.05, Stochastic 29.5) maintain equilibrium without directional resolution",
+        "Volume remains subdued with CMF near zero, preventing breakout in either direction"
+      ],
+      "risks": [
+        "Extended consolidation increases probability of volatility contraction breakdown toward lower Bollinger Band (440.72) on 15% downside move"
+      ]
+    },
+    {
+      "name": "Bear",
+      "probability": 0.25,
+      "target": 428.28,
+      "return_pct": -8.08,
+      "drivers": [
+        "Breakdown below Keltner lower band (447.77) triggers systematic sell signals and stop-loss cascades toward Supertrend support",
+        "Hidden bearish divergences in RSI and MACD (30.9% strength) resolve downward as momentum deterioration accelerates",
+        "OBV distribution and MFI weakness (45.4) confirm institutional selling pressure overwhelming retail buying interest"
+      ],
+      "risks": [
+        "Supertrend support at 428.28 represents critical technical floor where 8.1% decline would trigger maximum acceptable loss and forced liquidation"
+      ]
+    }
+  ],
+  "catalysts": [
+    "Technical breakout above Ichimoku cloud resistance (509.30) within 2-3 weeks would trigger systematic momentum strategy buy signals and attract trend-following capital",
+    "RSI momentum reversal above 55 threshold combined with MACD positive crossover within 5-10 trading sessions would confirm short-term trend reversal",
+    "Volume accumulation pattern with OBV reclaiming 21-day MA and MFI advancing above 50 within 1-2 weeks would signal institutional re-engagement",
+    "Bollinger Band squeeze resolution (current width at elevated levels) expected within 2-3 weeks will determine next 10%+ directional move"
+  ],
+  "risks": [
+    "Ichimoku STRONG_SELL signal (90% confidence) with price below cloud indicates structural bearish regime; mitigate through strict 8.1% stop-loss at Supertrend $428.28 and reduced 3% position sizing",
+    "Hidden bearish divergences in MACD (30.9% strength over 15 bars) suggest momentum exhaustion; mitigate by avoiding fresh deployment until divergence resolves or RSI confirms reversal above 55",
+    "Distribution pressure evidenced by OBV below 21-day MA and MFI at 45.4 indicates institutional selling; mitigate through patient capital preservation until volume accumulation signals emerge with CMF above +0.10",
+    "Extreme kurtosis of 7.91 and 37.6% maximum drawdown exposure indicate fat-tail risk environment; mitigate through position sizing at 3% (vs. typical 5-8%) and maintaining strict risk discipline with no averaging down into weakness"
+  ],
+  "levels": {
+    "bb_upper": 503.1338069137928,
+    "bb_middle": 471.92799987792966,
+    "bb_lower": 440.72219284206653,
+    "kc_upper": 488.64384937439075,
+    "kc_lower": 447.77217712327644,
+    "ichimoku_cloud_top": 509.30499267578125,
+    "ichimoku_cloud_bottom": 485.80249786376953,
+    "supertrend": 428.2830108642578
+  },
+  "bullish_signals": 0,
+  "bearish_signals": 2,
+  "neutral_signals": 3,
+  "model_used": "claude-sonnet-4-5-20250929",
+  "tokens_used": 3103,
+  "generation_time_ms": 74434.70311164856
+}
