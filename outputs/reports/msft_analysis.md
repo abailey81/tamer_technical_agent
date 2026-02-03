@@ -1,0 +1,198 @@
+# Technical Analysis Report: MSFT
+
+## Microsoft Corporation
+
+| Field | Value |
+|-------|-------|
+| Sector | Technology |
+| Industry | Software - Infrastructure |
+| Analysis Period | 2015-01-01 to 2026-01-26 |
+| Total Records | 2,781 daily |
+| Report Generated | 2026-01-26 23:24:44 |
+
+---
+
+## Executive Summary
+
+### Overall Signal
+
+| Metric | Value |
+|--------|-------|
+| Direction | **SELL** |
+| Confidence | 55.2% |
+| Strength | WEAK |
+| Volatility Regime | HIGH |
+
+### Trading Recommendation
+
+> NO TRADE: Weak or conflicting signals. Preserve capital and wait for better opportunity. (2 bearish divergence(s) confirm sell signal)
+
+### Signal Distribution
+
+- Bullish Families: 0
+- Bearish Families: 2
+- Neutral Families: 3
+
+---
+
+## Data Quality Assessment
+
+| Dimension | Score | Weight | Status |
+|-----------|-------|--------|--------|
+| Completeness | 100.0 | 40% | Pass |
+| Accuracy | 94.6 | 30% | Pass |
+| Consistency | 100.0 | 20% | Pass |
+| Timeliness | 100.0 | 10% | Pass |
+| **Overall** | **98.4/100** | - | **EXCELLENT** |
+
+---
+
+## Market Profile
+
+### Returns and Risk
+
+| Metric | Value |
+|--------|-------|
+| Annualized Return | +24.46% |
+| Annualized Volatility | 26.90% |
+| Sharpe Ratio | 0.761 |
+| Sortino Ratio | 1.052 |
+| Maximum Drawdown | -37.56% |
+| Calmar Ratio | 0.651 |
+
+### Distribution Properties
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| Skewness | +0.163 | Symmetric |
+| Kurtosis | 7.911 | Fat tails (leptokurtic) |
+| Hurst Exponent | 0.550 | RANDOM_WALK |
+
+---
+
+## Statistical Tests
+
+| Test | Hypothesis | Result | Interpretation |
+|------|------------|--------|----------------|
+| Jarque-Bera | Normality | FAIL | Non-normal distribution |
+| ADF | Unit Root | PASS | Stationary |
+| KPSS | Trend Stationary | PASS | Trend stationary |
+| Ljung-Box | Autocorrelation | DETECTED | Predictable patterns |
+| ARCH | Vol Clustering | DETECTED | Use GARCH |
+
+---
+
+## Indicator Family Analysis
+
+
+### MOMENTUM (Weight: 25%)
+
+**Signal:** NEUTRAL | **Confidence:** 50%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| RSI | NEUTRAL | 50% | NEUTRAL | RSI neutral at 46.1 |
+| STOCHASTIC | NEUTRAL | 50% | NEUTRAL | Stochastic neutral at 29.5 |
+| WILLIAMS_R | NEUTRAL | 50% | NEUTRAL | Williams %R neutral at -46.6 |
+
+### TREND (Weight: 25%)
+
+**Signal:** NEUTRAL | **Confidence:** 58%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| MACD | SELL | 60% | BEARISH | Histogram contracting (bearish weakening) |
+| ADX | NEUTRAL | 40% | WEAK_BEARISH | Weak/no trend (ADX=25.5) |
+| SUPERTREND | BUY | 75% | UPTREND | Price 8.1% from Supertrend |
+
+### VOLATILITY (Weight: 15%)
+
+**Signal:** NEUTRAL | **Confidence:** 52%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| BOLLINGER | NEUTRAL | 50% | MIDDLE_LOWER | Price in middle zone (%B=0.40) |
+| KELTNER | SELL | 55% | MIDDLE_LOWER | Price below Keltner middle (bearish) |
+
+### VOLUME (Weight: 15%)
+
+**Signal:** SELL | **Confidence:** 57%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| OBV | SELL | 65% | DISTRIBUTION | OBV below its 21-day MA (distribution) |
+| MFI | SELL | 55% | BEARISH | MFI bearish at 45.4 |
+| CMF | NEUTRAL | 50% | NEUTRAL | Neutral money flow (CMF=0.003) |
+
+### SYSTEM (Weight: 20%)
+
+**Signal:** STRONG_SELL | **Confidence:** 90%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| ICHIMOKU | STRONG_SELL | 90% | STRONG_BEARISH | Price below cloud |
+
+
+---
+
+## Key Technical Levels
+
+| Level | Price |
+|-------|-------|
+| Bollinger Upper | $503.13 |
+| Bollinger Middle | $471.93 |
+| Bollinger Lower | $440.72 |
+| Keltner Upper | $488.64 |
+| Keltner Lower | $447.77 |
+| Supertrend | $428.28 |
+| Ichimoku Cloud Top | $509.30 |
+| Ichimoku Cloud Bottom | $485.80 |
+
+
+## Divergence Analysis
+
+| Type | Indicator | Strength | Duration |
+|------|-----------|----------|----------|
+| HIDDEN_BEARISH | RSI | 4% | 15 bars |
+| HIDDEN_BEARISH | MACD | 31% | 15 bars |
+
+
+## Risk Assessment
+
+No significant risk factors identified.
+
+
+## Volatility Analysis (7 Estimators)
+
+| Estimator | Value |
+|-----------|-------|
+| Close to Close | 21.69% |
+| Parkinson | 18.80% |
+| Garman-Klass | 18.67% |
+| Rogers-Satchell | 18.43% |
+| Yang-Zhang | 12.85% |
+| GKYZ | 21.17% |
+| Hodges-Tompkins | 22.61% |
+| Composite | 18.73% |
+
+
+---
+
+## Data Provenance
+
+| Field | Value |
+|-------|-------|
+| Source | yahoo_finance |
+| Fetch Timestamp | 2026-01-26T23:22:00.164920 |
+| Data Hash (SHA-256) | `48660e8eb1437ee8` |
+| Daily Records | 2,781 |
+| Weekly Records | 578 |
+| Monthly Records | 133 |
+| Pipeline Version | 1.0.0 |
+| Engine Version | 2.0.0 |
+
+---
+
+*Generated by Quantitative Technical Analysis Agent v1.0.0*
+
+*MSc AI Agents in Asset Management - Track B: Technical Analyst Agent*

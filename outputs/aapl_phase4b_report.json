@@ -1,0 +1,210 @@
+{
+  "symbol": "AAPL",
+  "analysis_date": "2026-01-28T12:34:01.629155",
+  "period": {
+    "start": "2015-01-05T00:00:00",
+    "end": "2026-01-27T00:00:00",
+    "trading_days": 2782
+  },
+  "summary": {
+    "performance_grade": "AVERAGE",
+    "risk_level": "MODERATE",
+    "alpha_confidence": 0.8,
+    "strategy_robustness": 0.5291666666666666
+  },
+  "core_metrics": {
+    "total_return": 6.45476098560028,
+    "cagr": 0.1995740611440353,
+    "sharpe_ratio": 0.6582091748907561,
+    "max_drawdown": 0.3729777299016677
+  },
+  "performance_attribution": {
+    "alpha": 0.1118946795294742,
+    "beta": 0.6009147848750257,
+    "r_squared": 0.22200814540564429,
+    "alpha_t_stat": 1.8545124528746515,
+    "alpha_p_value": 0.06377170391934528,
+    "alpha_significant": "False",
+    "systematic_return": 0.04014023827622426,
+    "idiosyncratic_return": 0.10943382286781106,
+    "skill_contribution": 0.731636368169676,
+    "tracking_error": 0.2126995055537295,
+    "information_ratio": 0.3891664329223393
+  },
+  "regime_performance": {
+    "BULL": {
+      "days": 1763,
+      "pct_time": 0.6337167505391804,
+      "total_return": 5.364268650274812,
+      "cagr": 0.3028257784001984,
+      "sharpe": 1.0844242236135386,
+      "max_drawdown": 0.21254085941156892,
+      "hit_rate": 0.48099829835507657,
+      "contribution": 0.8310561246561704
+    },
+    "BEAR": {
+      "days": 523,
+      "pct_time": 0.18799424874191228,
+      "total_return": -0.13320016513674893,
+      "cagr": -0.06655855536853861,
+      "sharpe": -0.5581308404563461,
+      "max_drawdown": 0.31060492141664076,
+      "hit_rate": 0.31166347992351817,
+      "contribution": -0.020635956224235245
+    },
+    "SIDEWAYS": {
+      "days": 496,
+      "pct_time": 0.17828900071890727,
+      "total_return": 0.3513455002227195,
+      "cagr": 0.16530005690368377,
+      "sharpe": 0.5142495351333247,
+      "max_drawdown": 0.22360958098685507,
+      "hit_rate": 0.3548387096774194,
+      "contribution": 0.05443199229321193
+    }
+  },
+  "volatility_regime_performance": {
+    "LOW": {
+      "days": 690,
+      "pct_time": 0.24802300503235084,
+      "total_return": 2.0835652039463013,
+      "sharpe": 2.4399434917642604
+    },
+    "NORMAL": {
+      "days": 1401,
+      "pct_time": 0.5035945363048167,
+      "total_return": 1.0739781154898123,
+      "sharpe": 0.3963364690467717
+    },
+    "HIGH": {
+      "days": 414,
+      "pct_time": 0.1488138030194105,
+      "total_return": 0.16264692655942237,
+      "sharpe": 0.18499037655464506
+    },
+    "CRISIS": {
+      "days": 277,
+      "pct_time": 0.099568655643422,
+      "total_return": 0.0026020079578672473,
+      "sharpe": -0.17298673138339835
+    }
+  },
+  "signal_quality": {
+    "information_coefficient": -0.004760276071119176,
+    "ic_t_stat": -0.25094661061906265,
+    "ic_significant": "False",
+    "hit_rate_long": 0.5277777777777778,
+    "hit_rate_flat": 0.5363636363636364,
+    "signal_persistence": 22.99173553719008,
+    "turnover": 10.964401294498382,
+    "quality_grade": "POOR"
+  },
+  "stress_tests": [
+    {
+      "scenario": "COVID Crash",
+      "period": "2020-02-19 to 2020-03-23",
+      "benchmark_return": -0.33789686195420676,
+      "strategy_return": -0.08251466634624827,
+      "outperformance": 0.2553821956079585,
+      "protected_downside": "True"
+    },
+    {
+      "scenario": "COVID Recovery",
+      "period": "2020-03-23 to 2020-08-31",
+      "benchmark_return": 0.526704514420721,
+      "strategy_return": 0.964975207708934,
+      "outperformance": 0.438270693288213,
+      "protected_downside": false
+    },
+    {
+      "scenario": "2022 Bear Market",
+      "period": "2022-01-03 to 2022-10-12",
+      "benchmark_return": -0.2492841418784708,
+      "strategy_return": -0.11853395384092236,
+      "outperformance": 0.13075018803754845,
+      "protected_downside": "True"
+    },
+    {
+      "scenario": "2022 Recovery",
+      "period": "2022-10-12 to 2023-07-31",
+      "benchmark_return": 0.2796724465861322,
+      "strategy_return": 0.26537005901132593,
+      "outperformance": -0.014302387574806286,
+      "protected_downside": false
+    },
+    {
+      "scenario": "2018 Q4 Selloff",
+      "period": "2018-10-01 to 2018-12-24",
+      "benchmark_return": -0.19393232198018306,
+      "strategy_return": -0.1243355415725711,
+      "outperformance": 0.06959678040761197,
+      "protected_downside": "True"
+    },
+    {
+      "scenario": "2018 Recovery",
+      "period": "2018-12-24 to 2019-04-30",
+      "benchmark_return": 0.22152053486271983,
+      "strategy_return": 0.2505916716473535,
+      "outperformance": 0.02907113678463369,
+      "protected_downside": false
+    },
+    {
+      "scenario": "Aug 2015 Flash Crash",
+      "period": "2015-08-17 to 2015-08-25",
+      "benchmark_return": -0.10576828426201834,
+      "strategy_return": 0.0,
+      "outperformance": 0.10576828426201834,
+      "protected_downside": "True"
+    },
+    {
+      "scenario": "Post-Flash Recovery",
+      "period": "2015-08-25 to 2015-11-30",
+      "benchmark_return": 0.10126650364858203,
+      "strategy_return": 0.03306465637658329,
+      "outperformance": -0.06820184727199874,
+      "protected_downside": false
+    }
+  ],
+  "drawdown_analysis": {
+    "total_periods": 97,
+    "avg_duration_days": 1.5257731958762886,
+    "avg_recovery_days": 1.5416666666666667,
+    "major_drawdowns": [
+      {
+        "depth": -0.18171886964499864,
+        "start": "2026-01-27T00:00:00",
+        "trough": "2026-01-27T00:00:00",
+        "duration_days": 0,
+        "recovered": false
+      },
+      {
+        "depth": -0.03501325497699953,
+        "start": "2015-01-27T00:00:00",
+        "trough": "2015-01-27T00:00:00",
+        "duration_days": 1,
+        "recovered": true
+      },
+      {
+        "depth": -0.03296114683475724,
+        "start": "2017-01-31T00:00:00",
+        "trough": "2017-01-31T00:00:00",
+        "duration_days": 1,
+        "recovered": true
+      },
+      {
+        "depth": -0.032822429626114896,
+        "start": "2019-04-30T00:00:00",
+        "trough": "2019-04-30T00:00:00",
+        "duration_days": 1,
+        "recovered": true
+      },
+      {
+        "depth": -0.03263742618521473,
+        "start": "2018-07-31T00:00:00",
+        "trough": "2018-07-31T00:00:00",
+        "duration_days": 1,
+        "recovered": true
+      }
+    ]
+  }
+}

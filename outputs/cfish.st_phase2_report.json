@@ -1,0 +1,154 @@
+{
+  "symbol": "CFISH.ST",
+  "period": [
+    "2024-10-31",
+    "2026-01-27"
+  ],
+  "volatility_regime": "EXTREME",
+  "regime_adjusted": true,
+  "overall_signal": "NEUTRAL",
+  "overall_confidence": 0.5249480746110726,
+  "signal_strength": "WEAK",
+  "bullish_count": 2,
+  "bearish_count": 1,
+  "neutral_count": 2,
+  "recommendation": "NO TRADE: Weak or conflicting signals. Preserve capital and wait for better opportunity.",
+  "risk_factors": [
+    "Mixed signals across indicator families"
+  ],
+  "families": {
+    "momentum": {
+      "signal": "NEUTRAL",
+      "confidence": 0.5,
+      "weight": 0.25,
+      "indicators": {
+        "rsi": {
+          "direction": "NEUTRAL",
+          "confidence": 0.5,
+          "value": 50.92683365198053,
+          "zone": "BULLISH"
+        },
+        "stochastic": {
+          "direction": "NEUTRAL",
+          "confidence": 0.5,
+          "value": 45.044766116153745,
+          "zone": "NEUTRAL"
+        },
+        "williams_r": {
+          "direction": "NEUTRAL",
+          "confidence": 0.5,
+          "value": -58.95953581970374,
+          "zone": "NEUTRAL"
+        }
+      }
+    },
+    "trend": {
+      "signal": "BUY",
+      "confidence": 0.5833333333333334,
+      "weight": 0.25,
+      "indicators": {
+        "macd": {
+          "direction": "BUY",
+          "confidence": 0.6,
+          "value": 0.0503385120445512,
+          "zone": "BULLISH"
+        },
+        "adx": {
+          "direction": "NEUTRAL",
+          "confidence": 0.4,
+          "value": 20.52954000659134,
+          "zone": "WEAK_BULLISH"
+        },
+        "supertrend": {
+          "direction": "BUY",
+          "confidence": 0.75,
+          "value": 1.8284998416900633,
+          "zone": "UPTREND"
+        }
+      }
+    },
+    "volatility": {
+      "signal": "NEUTRAL",
+      "confidence": 0.525,
+      "weight": 0.15,
+      "indicators": {
+        "bollinger": {
+          "direction": "NEUTRAL",
+          "confidence": 0.5,
+          "value": 0.4937904202316163,
+          "zone": "AT_MIDDLE"
+        },
+        "keltner": {
+          "direction": "BUY",
+          "confidence": 0.55,
+          "value": 0.5188643688859965,
+          "zone": "MIDDLE_UPPER"
+        }
+      }
+    },
+    "volume": {
+      "signal": "BUY",
+      "confidence": 0.65,
+      "weight": 0.15,
+      "indicators": {
+        "obv": {
+          "direction": "BUY",
+          "confidence": 0.65,
+          "value": -4182318.0,
+          "zone": "ACCUMULATION"
+        },
+        "mfi": {
+          "direction": "SELL",
+          "confidence": 0.55,
+          "value": 47.65009614758562,
+          "zone": "BEARISH"
+        },
+        "cmf": {
+          "direction": "STRONG_BUY",
+          "confidence": 0.75,
+          "value": 0.29462496972945973,
+          "zone": "STRONG_ACCUMULATION"
+        }
+      }
+    },
+    "system": {
+      "signal": "SELL",
+      "confidence": 0.7,
+      "weight": 0.2,
+      "indicators": {
+        "ichimoku": {
+          "direction": "SELL",
+          "confidence": 0.7,
+          "value": -2,
+          "zone": "BEARISH"
+        }
+      }
+    }
+  },
+  "divergences": [
+    {
+      "type": "REGULAR_BULLISH",
+      "indicator": "MACD",
+      "strength": 0.8483092659717397,
+      "bars": 8
+    },
+    {
+      "type": "HIDDEN_BEARISH",
+      "indicator": "MACD",
+      "strength": 1.0,
+      "bars": 21
+    }
+  ],
+  "key_levels": {
+    "bb_upper": 3.5905787115002035,
+    "bb_middle": 2.76525000333786,
+    "bb_lower": 1.9399212951755171,
+    "kc_upper": 3.3903853838720366,
+    "kc_lower": 2.069790465636671,
+    "ichimoku_cloud_top": 2.952500104904175,
+    "ichimoku_cloud_bottom": 2.6200000047683716,
+    "supertrend": 1.8284998416900633
+  },
+  "generated_at": "2026-01-28T22:18:35.548720",
+  "version": "2.0.0"
+}

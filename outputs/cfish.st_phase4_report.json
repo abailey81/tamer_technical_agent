@@ -1,0 +1,72 @@
+{
+  "symbol": "CFISH.ST",
+  "strategy": "Trend-Following with Crash Protection",
+  "status": "SUCCESS",
+  "period": {
+    "start": "2024-10-31T00:00:00",
+    "end": "2026-01-27T00:00:00",
+    "trading_days": 306
+  },
+  "capital": {
+    "initial": 100000,
+    "final": 100359.38990882058,
+    "total_return": 0.003593899088205799
+  },
+  "coursework_metrics": {
+    "cagr": 0.0029587443813119396,
+    "sharpe_ratio": -0.04173731557819658,
+    "max_drawdown": 0.6423630926006729,
+    "hit_rate": 0.23076923076923078
+  },
+  "returns": {
+    "cagr": 0.0029587443813119396,
+    "annual_return": 0.7930834221337302,
+    "best_day": 0.47040004730224605,
+    "worst_day": -0.27005079041809066,
+    "positive_days": 87,
+    "negative_days": 129
+  },
+  "risk": {
+    "annual_volatility": 1.12707908898823,
+    "max_drawdown": 0.6423630926006729,
+    "avg_drawdown": 0.3813921248691529,
+    "var_95": -0.08281901028857211,
+    "cvar_95": -0.1206395412618772
+  },
+  "risk_adjusted": {
+    "sharpe_ratio": -0.04173731557819658,
+    "sortino_ratio": -0.07169897824490698,
+    "calmar_ratio": 0.004606031098911924,
+    "omega_ratio": 1.1208580765475535
+  },
+  "trades": {
+    "total": 13,
+    "winning": 3,
+    "losing": 10,
+    "hit_rate": 0.23076923076923078,
+    "profit_factor": 2.1688148472781514,
+    "avg_win": 79993.40634666018,
+    "avg_loss": 11065.039477258937,
+    "expectancy": 9948.448020568552,
+    "total_costs": 2080.0
+  },
+  "walk_forward": {
+    "n_periods": 0,
+    "avg_oos_return": 0,
+    "avg_oos_sharpe": 0,
+    "wfe_ratio": 0,
+    "is_robust": false
+  },
+  "monte_carlo": {
+    "n_simulations": 500,
+    "return_mean": 2.939514076405154,
+    "return_95_ci": [
+      -0.9122207763859446,
+      24.512395716749214
+    ],
+    "sharpe_mean": 3.3628147956103467,
+    "prob_positive_return": 0.464
+  },
+  "execution_time_ms": 26.615142822265625,
+  "version": "2.0.0"
+}

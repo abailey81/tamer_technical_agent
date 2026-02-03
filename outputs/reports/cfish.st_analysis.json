@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "symbol": "CFISH.ST",
+    "company_name": "Crunchfish AB (publ)",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "generated_at": "2026-01-28T22:19:58.123772",
+    "report_version": "1.0.0",
+    "engine_version": "2.0.0",
+    "pipeline_version": "1.0.0"
+  },
+  "executive_summary": {
+    "overall_signal": {
+      "direction": "NEUTRAL",
+      "confidence": 0.5249,
+      "strength": "WEAK"
+    },
+    "volatility_regime": "EXTREME",
+    "recommendation": "NO TRADE: Weak or conflicting signals. Preserve capital and wait for better opportunity.",
+    "signal_distribution": {
+      "bullish": 2,
+      "bearish": 1,
+      "neutral": 2
+    }
+  },
+  "analysis_period": {
+    "start": "2024-10-31",
+    "end": "2026-01-28",
+    "daily_records": 306,
+    "weekly_records": 66,
+    "monthly_records": 16
+  },
+  "data_quality": {
+    "overall_score": 98.13,
+    "grade": "EXCELLENT",
+    "dimensions": {
+      "completeness": {
+        "score": 100,
+        "weight": 0.4
+      },
+      "accuracy": {
+        "score": 93.77,
+        "weight": 0.3
+      },
+      "consistency": {
+        "score": 100,
+        "weight": 0.2
+      },
+      "timeliness": {
+        "score": 100,
+        "weight": 0.1
+      }
+    }
+  },
+  "market_profile": {
+    "returns": {
+      "annualized": 1.206581
+    },
+    "risk": {
+      "annualized_volatility": 1.27026,
+      "sharpe_ratio": 0.9184,
+      "sortino_ratio": 1.9388,
+      "calmar_ratio": 1.8731,
+      "max_drawdown": -0.644162
+    },
+    "distribution": {
+      "skewness": 1.93877,
+      "kurtosis": 8.492323,
+      "is_normal": false
+    },
+    "trend": {
+      "hurst_exponent": 0.6224,
+      "character": "TRENDING"
+    }
+  },
+  "statistical_tests": {
+    "jarque_bera": {
+      "is_normal": false,
+      "test": "normality"
+    },
+    "adf": {
+      "is_stationary": true,
+      "test": "unit_root"
+    },
+    "kpss": {
+      "is_stationary": true,
+      "test": "trend_stationarity"
+    },
+    "ljung_box": {
+      "has_autocorrelation": false,
+      "test": "autocorrelation"
+    },
+    "arch": {
+      "has_arch_effects": false,
+      "test": "volatility_clustering"
+    }
+  },
+  "indicator_families": {
+    "momentum": {
+      "signal": "NEUTRAL",
+      "confidence": 0.5,
+      "weight": 0.25,
+      "indicators": {
+        "rsi": {
+          "direction": "NEUTRAL",
+          "confidence": 0.5,
+          "value": 50.926834,
+          "zone": "BULLISH",
+          "factors": [
+            "RSI neutral at 50.9"
+          ]
+        },
+        "stochastic": {
+          "direction": "NEUTRAL",
+          "confidence": 0.5,
+          "value": 45.044766,
+          "zone": "NEUTRAL",
+          "factors": [
+            "Stochastic neutral at 45.0"
+          ]
+        },
+        "williams_r": {
+          "direction": "NEUTRAL",
+          "confidence": 0.5,
+          "value": -58.959536,
+          "zone": "NEUTRAL",
+          "factors": [
+            "Williams %R neutral at -59.0"
+          ]
+        }
+      }
+    },
+    "trend": {
+      "signal": "BUY",
+      "confidence": 0.5833,
+      "weight": 0.25,
+      "indicators": {
+        "macd": {
+          "direction": "BUY",
+          "confidence": 0.6,
+          "value": 0.050339,
+          "zone": "BULLISH",
+          "factors": [
+            "Histogram expanding bullish",
+            "MACD above zero line"
+          ]
+        },
+        "adx": {
+          "direction": "NEUTRAL",
+          "confidence": 0.4,
+          "value": 20.52954,
+          "zone": "WEAK_BULLISH",
+          "factors": [
+            "Weak/no trend (ADX=20.5)",
+            "+DI above -DI (bullish directional)"
+          ]
+        },
+        "supertrend": {
+          "direction": "BUY",
+          "confidence": 0.75,
+          "value": 1.8285,
+          "zone": "UPTREND",
+          "factors": [
+            "Price 33.6% from Supertrend"
+          ]
+        }
+      }
+    },
+    "volatility": {
+      "signal": "NEUTRAL",
+      "confidence": 0.525,
+      "weight": 0.15,
+      "indicators": {
+        "bollinger": {
+          "direction": "NEUTRAL",
+          "confidence": 0.5,
+          "value": 0.49379,
+          "zone": "AT_MIDDLE",
+          "factors": [
+            "Price in middle zone (%B=0.49)",
+            "Volatility contracting"
+          ]
+        },
+        "keltner": {
+          "direction": "BUY",
+          "confidence": 0.55,
+          "value": 0.518864,
+          "zone": "MIDDLE_UPPER",
+          "factors": [
+            "Price above Keltner middle (bullish)"
+          ]
+        }
+      }
+    },
+    "volume": {
+      "signal": "BUY",
+      "confidence": 0.65,
+      "weight": 0.15,
+      "indicators": {
+        "obv": {
+          "direction": "BUY",
+          "confidence": 0.65,
+          "value": -4182318.0,
+          "zone": "ACCUMULATION",
+          "factors": [
+            "OBV above its 21-day MA (accumulation)"
+          ]
+        },
+        "mfi": {
+          "direction": "SELL",
+          "confidence": 0.55,
+          "value": 47.650096,
+          "zone": "BEARISH",
+          "factors": [
+            "MFI bearish at 47.7"
+          ]
+        },
+        "cmf": {
+          "direction": "STRONG_BUY",
+          "confidence": 0.75,
+          "value": 0.294625,
+          "zone": "STRONG_ACCUMULATION",
+          "factors": [
+            "Strong buying pressure (CMF=0.295)"
+          ]
+        }
+      }
+    },
+    "system": {
+      "signal": "SELL",
+      "confidence": 0.7,
+      "weight": 0.2,
+      "indicators": {
+        "ichimoku": {
+          "direction": "SELL",
+          "confidence": 0.7,
+          "value": -2.0,
+          "zone": "BEARISH",
+          "factors": [
+            "Price inside cloud",
+            "Cloud is bearish",
+            "TK cross: BEARISH_CROSS",
+            "Price below Kijun-sen",
+            "Chikou above price",
+            "Score: 1 bullish, 3 bearish"
+          ]
+        }
+      }
+    }
+  },
+  "key_levels": {
+    "bb_upper": 3.5906,
+    "bb_middle": 2.7653,
+    "bb_lower": 1.9399,
+    "kc_upper": 3.3904,
+    "kc_lower": 2.0698,
+    "ichimoku_cloud_top": 2.9525,
+    "ichimoku_cloud_bottom": 2.62,
+    "supertrend": 1.8285
+  },
+  "divergences": [
+    {
+      "type": "REGULAR_BULLISH",
+      "indicator": "MACD",
+      "strength": 0.8483,
+      "duration_bars": 8
+    },
+    {
+      "type": "HIDDEN_BEARISH",
+      "indicator": "MACD",
+      "strength": 1.0,
+      "duration_bars": 21
+    }
+  ],
+  "risk_factors": [
+    "Mixed signals across indicator families"
+  ],
+  "volatility_estimators": {
+    "close_to_close": 1.52944,
+    "parkinson": 1.278816,
+    "garman_klass": 1.269776,
+    "rogers_satchell": 1.339785,
+    "yang_zhang": 0.713187,
+    "gkyz": 1.339382,
+    "hodges_tompkins": 1.594275,
+    "composite": 1.261207
+  },
+  "provenance": {
+    "source": "yahoo_finance",
+    "fetch_timestamp": "2026-01-28T22:18:32.704078",
+    "data_hash": "6cf128635da3ddc5"
+  }
+}

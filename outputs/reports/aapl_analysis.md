@@ -1,0 +1,197 @@
+# Technical Analysis Report: AAPL
+
+## Apple Inc.
+
+| Field | Value |
+|-------|-------|
+| Sector | Technology |
+| Industry | Consumer Electronics |
+| Analysis Period | 2015-01-01 to 2026-01-28 |
+| Total Records | 2,783 daily |
+| Report Generated | 2026-01-28 12:35:11 |
+
+---
+
+## Executive Summary
+
+### Overall Signal
+
+| Metric | Value |
+|--------|-------|
+| Direction | **SELL** |
+| Confidence | 55.7% |
+| Strength | WEAK |
+| Volatility Regime | HIGH |
+
+### Trading Recommendation
+
+> NO TRADE: Weak or conflicting signals. Preserve capital and wait for better opportunity.
+
+### Signal Distribution
+
+- Bullish Families: 0
+- Bearish Families: 2
+- Neutral Families: 3
+
+---
+
+## Data Quality Assessment
+
+| Dimension | Score | Weight | Status |
+|-----------|-------|--------|--------|
+| Completeness | 100.0 | 40% | Pass |
+| Accuracy | 94.1 | 30% | Pass |
+| Consistency | 100.0 | 20% | Pass |
+| Timeliness | 100.0 | 10% | Pass |
+| **Overall** | **98.2/100** | - | **EXCELLENT** |
+
+---
+
+## Market Profile
+
+### Returns and Risk
+
+| Metric | Value |
+|--------|-------|
+| Annualized Return | +24.50% |
+| Annualized Volatility | 28.82% |
+| Sharpe Ratio | 0.711 |
+| Sortino Ratio | 0.984 |
+| Maximum Drawdown | -38.73% |
+| Calmar Ratio | 0.633 |
+
+### Distribution Properties
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| Skewness | +0.145 | Symmetric |
+| Kurtosis | 6.574 | Fat tails (leptokurtic) |
+| Hurst Exponent | 0.599 | TRENDING |
+
+---
+
+## Statistical Tests
+
+| Test | Hypothesis | Result | Interpretation |
+|------|------------|--------|----------------|
+| Jarque-Bera | Normality | FAIL | Non-normal distribution |
+| ADF | Unit Root | PASS | Stationary |
+| KPSS | Trend Stationary | PASS | Trend stationary |
+| Ljung-Box | Autocorrelation | NONE | No autocorrelation |
+| ARCH | Vol Clustering | NONE | Homoscedastic |
+
+---
+
+## Indicator Family Analysis
+
+
+### MOMENTUM (Weight: 25%)
+
+**Signal:** NEUTRAL | **Confidence:** 50%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| RSI | NEUTRAL | 50% | NEUTRAL | RSI neutral at 45.6 |
+| STOCHASTIC | NEUTRAL | 50% | NEUTRAL | Stochastic neutral at 46.5 |
+| WILLIAMS_R | NEUTRAL | 50% | NEUTRAL | Williams %R neutral at -26.7 |
+
+### TREND (Weight: 25%)
+
+**Signal:** NEUTRAL | **Confidence:** 68%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| MACD | SELL | 60% | BEARISH | Histogram contracting (bearish weakening) |
+| ADX | SELL | 70% | STRONG_BEARISH | Strong trend (ADX=30.3) |
+| SUPERTREND | BUY | 75% | UPTREND | Price 6.1% from Supertrend |
+
+### VOLATILITY (Weight: 15%)
+
+**Signal:** NEUTRAL | **Confidence:** 50%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| BOLLINGER | NEUTRAL | 50% | AT_MIDDLE | Price in middle zone (%B=0.46) |
+| KELTNER | NEUTRAL | 50% | AT_MIDDLE | Price below Keltner middle (bearish) |
+
+### VOLUME (Weight: 15%)
+
+**Signal:** SELL | **Confidence:** 62%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| OBV | SELL | 65% | DISTRIBUTION | OBV below its 21-day MA (distribution) |
+| MFI | SELL | 55% | BEARISH | MFI bearish at 39.5 |
+| CMF | SELL | 65% | DISTRIBUTION | Selling pressure (CMF=-0.177) |
+
+### SYSTEM (Weight: 20%)
+
+**Signal:** STRONG_SELL | **Confidence:** 90%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| ICHIMOKU | STRONG_SELL | 90% | STRONG_BEARISH | Price below cloud |
+
+
+---
+
+## Key Technical Levels
+
+| Level | Price |
+|-------|-------|
+| Bollinger Upper | $279.18 |
+| Bollinger Middle | $259.87 |
+| Bollinger Lower | $240.57 |
+| Keltner Upper | $269.62 |
+| Keltner Lower | $247.96 |
+| Supertrend | $242.64 |
+| Ichimoku Cloud Top | $276.68 |
+| Ichimoku Cloud Bottom | $266.31 |
+
+
+## Divergence Analysis
+
+| Type | Indicator | Strength | Duration |
+|------|-----------|----------|----------|
+| REGULAR_BULLISH | MACD | 4% | 29 bars |
+
+
+## Risk Assessment
+
+- Bullish divergence (1) conflicts with bearish signal - potential reversal
+
+
+## Volatility Analysis (7 Estimators)
+
+| Estimator | Value |
+|-----------|-------|
+| Close to Close | 19.23% |
+| Parkinson | 18.89% |
+| Garman-Klass | 20.21% |
+| Rogers-Satchell | 20.36% |
+| Yang-Zhang | 12.97% |
+| GKYZ | 22.92% |
+| Hodges-Tompkins | 20.05% |
+| Composite | 18.71% |
+
+
+---
+
+## Data Provenance
+
+| Field | Value |
+|-------|-------|
+| Source | yahoo_finance |
+| Fetch Timestamp | 2026-01-28T12:31:49.637940 |
+| Data Hash (SHA-256) | `cf9d0b54fc998fdd` |
+| Daily Records | 2,783 |
+| Weekly Records | 579 |
+| Monthly Records | 133 |
+| Pipeline Version | 1.0.0 |
+| Engine Version | 2.0.0 |
+
+---
+
+*Generated by Quantitative Technical Analysis Agent v1.0.0*
+
+*MSc AI Agents in Asset Management - Track B: Technical Analyst Agent*

@@ -1,0 +1,145 @@
+{
+  "symbol": "CFISH.ST",
+  "analysis_date": "2026-01-28T22:18:42.650044",
+  "period": {
+    "start": "2024-11-01T00:00:00",
+    "end": "2026-01-27T00:00:00",
+    "trading_days": 295
+  },
+  "summary": {
+    "performance_grade": "AVERAGE",
+    "risk_level": "MODERATE",
+    "alpha_confidence": 0.35,
+    "strategy_robustness": 0.25
+  },
+  "core_metrics": {
+    "total_return": -0.28625502536211833,
+    "cagr": -0.2502939359041322,
+    "sharpe_ratio": -0.2872334002705825,
+    "max_drawdown": 0.6127943353685513
+  },
+  "performance_attribution": {
+    "alpha": 0.21822122601418623,
+    "beta": -0.33707639398866346,
+    "r_squared": 0.0035430766681691095,
+    "alpha_t_stat": 0.22585358404666803,
+    "alpha_p_value": 0.821472761836183,
+    "alpha_significant": "False",
+    "systematic_return": -0.04404588956096856,
+    "idiosyncratic_return": -0.2562480463431636,
+    "skill_contribution": 0.8533240791947592,
+    "tracking_error": 1.0725577875873054,
+    "information_ratio": -0.4018098497480793
+  },
+  "regime_performance": {
+    "BULL": {
+      "days": 70,
+      "pct_time": 0.23728813559322035,
+      "total_return": -0.07235893108486724,
+      "cagr": -0.23692384347720497,
+      "sharpe": -0.4033912188296978,
+      "max_drawdown": 0.3322819693193597,
+      "hit_rate": 0.2714285714285714,
+      "contribution": 0.25277785426939403
+    },
+    "BEAR": {
+      "days": 3,
+      "pct_time": 0.010169491525423728,
+      "total_return": -0.16257897558669365,
+      "cagr": -0.9999996632681063,
+      "sharpe": -1.2370233560328745,
+      "max_drawdown": 0.06292514938059016,
+      "hit_rate": 0.0,
+      "contribution": 0.5679515158940109
+    },
+    "SIDEWAYS": {
+      "days": 222,
+      "pct_time": 0.752542372881356,
+      "total_return": -0.08120370415230993,
+      "cagr": -0.09165911584116881,
+      "sharpe": -0.12531041276617708,
+      "max_drawdown": 0.5996396240700326,
+      "hit_rate": 0.2972972972972973,
+      "contribution": 0.28367608236601477
+    }
+  },
+  "volatility_regime_performance": {
+    "LOW": {
+      "days": 68,
+      "pct_time": 0.2305084745762712,
+      "total_return": -0.2814221013022591,
+      "sharpe": -0.7926087138147974
+    },
+    "NORMAL": {
+      "days": 157,
+      "pct_time": 0.5322033898305085,
+      "total_return": -0.4105106710276354,
+      "sharpe": -0.7544060180752574
+    },
+    "HIGH": {
+      "days": 42,
+      "pct_time": 0.1423728813559322,
+      "total_return": 0.651633185265136,
+      "sharpe": 10.730107999223472
+    },
+    "CRISIS": {
+      "days": 28,
+      "pct_time": 0.09491525423728814,
+      "total_return": 0.02018670572984882,
+      "sharpe": 0.1760499271286642
+    }
+  },
+  "signal_quality": {
+    "information_coefficient": 0.10497186758882586,
+    "ic_t_stat": 1.8037252960522683,
+    "ic_significant": "False",
+    "hit_rate_long": 0.4057971014492754,
+    "hit_rate_flat": 0.4431818181818182,
+    "signal_persistence": 12.291666666666666,
+    "turnover": 20.57142857142857,
+    "quality_grade": "EXCEPTIONAL"
+  },
+  "stress_tests": [],
+  "drawdown_analysis": {
+    "total_periods": 6,
+    "avg_duration_days": 1.1666666666666667,
+    "avg_recovery_days": 1.4,
+    "major_drawdowns": [
+      {
+        "depth": -0.6127943353685513,
+        "start": "2026-01-27T00:00:00",
+        "trough": "2026-01-27T00:00:00",
+        "duration_days": 0,
+        "recovered": false
+      },
+      {
+        "depth": -0.25786168378844426,
+        "start": "2024-12-03T00:00:00",
+        "trough": "2024-12-03T00:00:00",
+        "duration_days": 1,
+        "recovered": true
+      },
+      {
+        "depth": -0.0789473568633652,
+        "start": "2025-06-13T00:00:00",
+        "trough": "2025-06-13T00:00:00",
+        "duration_days": 3,
+        "recovered": true
+      },
+      {
+        "depth": -0.057333310445149756,
+        "start": "2024-11-12T00:00:00",
+        "trough": "2024-11-12T00:00:00",
+        "duration_days": 1,
+        "recovered": true
+      },
+      {
+        "depth": -0.05486800132767411,
+        "start": "2025-06-03T00:00:00",
+        "trough": "2025-06-03T00:00:00",
+        "duration_days": 1,
+        "recovered": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "symbol": "CFISH.ST",
+  "analysis_date": "2026-01-28T22:18:42.456682",
+  "period_start": "2024-10-31T00:00:00",
+  "period_end": "2026-01-27T00:00:00",
+  "n_observations": 305,
+  "hmm": {
+    "current_regime": "SIDEWAYS",
+    "regime_probability": 0.9109168838290587,
+    "state_probabilities": {
+      "BULL": 0.005959771484007371,
+      "BEAR": 0.083123344686934,
+      "SIDEWAYS": 0.9109168838290587
+    },
+    "expected_durations": {
+      "BULL": 6.895786133239548,
+      "BEAR": 5.98621692975021,
+      "SIDEWAYS": 10.00752482663124
+    },
+    "converged": true
+  },
+  "garch": {
+    "current_volatility": 1.1364030443580084,
+    "vol_regime": "CRISIS",
+    "persistence": 0.8188529018762789,
+    "forecast_5d": 1.1446185550775445
+  },
+  "hurst": {
+    "hurst_exponent": 0.5991234015881801,
+    "persistence": "WEAK_TRENDING",
+    "r_squared": 0.9771138544624672
+  },
+  "strategy": {
+    "strategy": "NEUTRAL",
+    "position_bias": "NEUTRAL",
+    "position_size": 0.091111630108492,
+    "stop_loss_atr": 1.5,
+    "confidence": 0.728893040867936,
+    "rationale": [
+      "Sideways market - wait for clearer regime",
+      "Volatility regime: CRISIS",
+      "Hurst exponent: 0.599 (WEAK_TRENDING)"
+    ],
+    "warnings": [
+      "Unclear market direction",
+      "CRISIS volatility - significant capital at risk"
+    ]
+  },
+  "quality": {
+    "score": 89.11727708924936,
+    "grade": "GOOD"
+  },
+  "processing_time_ms": 6888,
+  "version": "2.0.0"
+}

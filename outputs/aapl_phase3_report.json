@@ -1,0 +1,54 @@
+{
+  "symbol": "AAPL",
+  "analysis_date": "2026-01-28T12:34:00.252640",
+  "period_start": "2015-01-02T00:00:00",
+  "period_end": "2026-01-27T00:00:00",
+  "n_observations": 2782,
+  "hmm": {
+    "current_regime": "SIDEWAYS",
+    "regime_probability": 0.7805932262652849,
+    "state_probabilities": {
+      "BEAR": 0.010770981912961036,
+      "BULL": 0.20863579182175404,
+      "SIDEWAYS": 0.7805932262652849
+    },
+    "expected_durations": {
+      "BEAR": 8.8955245322297,
+      "BULL": 14.619170622442612,
+      "SIDEWAYS": 12.244432434540506
+    },
+    "converged": true
+  },
+  "garch": {
+    "current_volatility": 0.26098707917985753,
+    "vol_regime": "HIGH",
+    "persistence": 0.954611974242571,
+    "forecast_5d": 0.263611743505583
+  },
+  "hurst": {
+    "hurst_exponent": 0.5729354892462678,
+    "persistence": "WEAK_TRENDING",
+    "r_squared": 0.9976084834007043
+  },
+  "strategy": {
+    "strategy": "NEUTRAL",
+    "position_bias": "NEUTRAL",
+    "position_size": 0.23691623255002414,
+    "stop_loss_atr": 1.5,
+    "confidence": 0.6769035215714976,
+    "rationale": [
+      "Sideways market - wait for clearer regime",
+      "Volatility regime: HIGH",
+      "Hurst exponent: 0.573 (WEAK_TRENDING)"
+    ],
+    "warnings": [
+      "Unclear market direction"
+    ]
+  },
+  "quality": {
+    "score": 99.95216966801408,
+    "grade": "EXCELLENT"
+  },
+  "processing_time_ms": 126778,
+  "version": "2.0.0"
+}

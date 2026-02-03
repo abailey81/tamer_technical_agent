@@ -1,0 +1,57 @@
+{
+  "symbol": "CFISH.ST",
+  "company_name": "Crunchfish AB (publ)",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "period": {
+    "start": "2024-10-31",
+    "end": "2026-01-28"
+  },
+  "records": {
+    "daily": 306,
+    "weekly": 66,
+    "monthly": 16
+  },
+  "quality": {
+    "completeness": 100,
+    "accuracy": 93.77,
+    "consistency": 100,
+    "timeliness": 100,
+    "overall": 98.13,
+    "grade": "EXCELLENT",
+    "issues": [],
+    "warnings": [
+      "Return outliers: 19 (6.2%)",
+      "Large move: +42.2% on 2025-05-23",
+      "Large move: +47.0% on 2025-05-26"
+    ],
+    "records_total": 306,
+    "records_valid": 306,
+    "date_range": [
+      "2024-10-31",
+      "2026-01-27"
+    ],
+    "data_hash": "6cf128635da3ddc5"
+  },
+  "profile": {
+    "annualized_return": 1.2065810994660833,
+    "annualized_volatility": 1.2702596491573284,
+    "sharpe_ratio": 0.9183800337513485,
+    "hurst_exponent": 0.6224001352124983,
+    "trend_character": "TRENDING"
+  },
+  "provenance": {
+    "source": "yahoo_finance",
+    "symbol": "CFISH.ST",
+    "fetch_timestamp": "2026-01-28T22:18:32.704078",
+    "date_range": [
+      "2024-10-31",
+      "2026-01-28"
+    ],
+    "record_count": 306,
+    "data_hash": "6cf128635da3ddc5",
+    "version": "1.0.0"
+  },
+  "version": "1.0.0",
+  "generated_at": "2026-01-28T22:18:35.272363"
+}

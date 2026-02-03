@@ -1,0 +1,503 @@
+{
+  "note_id": "TN-AAPL-20260128123511",
+  "symbol": "AAPL",
+  "company_name": "Apple Inc.",
+  "sector": "Technology",
+  "industry": "Consumer Electronics",
+  "generated_at": "2026-01-28T12:35:11.454814",
+  "analysis_period": "2015-01-02 to 2026-01-27",
+  "total_records": 2783,
+  "recommendation": "HOLD",
+  "conviction": "LOW",
+  "confidence": 52.0,
+  "time_horizon": "1-4 weeks",
+  "risk_rating": "HIGH",
+  "current_price": 258.2699890136719,
+  "target_price": 282.0,
+  "expected_return": 9.18,
+  "entry": 258.27,
+  "stop_loss": 242.64,
+  "target_1": 265.5,
+  "target_2": 273.75,
+  "target_3": 282.0,
+  "risk_reward": 1.51823416506718,
+  "position_size": 3.0,
+  "max_size": 6.0,
+  "sizing_method": "Half-Kelly Criterion",
+  "sizing_rationale": "Minimal allocation justified given conflicting signals, weak technical setup, and elevated volatility environment requiring defensive positioning.",
+  "overall_score": 48,
+  "technical_score": 42,
+  "momentum_score": 50,
+  "trend_score": 68,
+  "volatility_score": 50,
+  "volume_score": 61,
+  "risk_score": 44,
+  "score_explanations": {
+    "overall": {
+      "score": 48,
+      "rating": "FAIR",
+      "interpretation": "Overall technical score of 48/100 indicates weak buy/sell conviction based on weighted indicator family analysis.",
+      "factors": [
+        "Weighted combination of all indicator families"
+      ]
+    },
+    "technical": {
+      "score": 42,
+      "rating": "FAIR",
+      "interpretation": "Technical structure score of 42/100 reflects price position relative to key levels, support/resistance zones, and chart pattern quality.",
+      "factors": [
+        "Price structure",
+        "Support/resistance levels"
+      ]
+    },
+    "momentum": {
+      "score": 50,
+      "rating": "FAIR",
+      "interpretation": "Momentum score of 50/100 measures RSI, Stochastic, and Williams %R conditions. Neutral momentum conditions.",
+      "factors": [
+        "RSI",
+        "Stochastic",
+        "Williams %R"
+      ]
+    },
+    "trend": {
+      "score": 68,
+      "rating": "GOOD",
+      "interpretation": "Trend score of 68/100 evaluates MACD, ADX, Supertrend, and Ichimoku alignment. Mixed trend signals.",
+      "factors": [
+        "MACD",
+        "ADX",
+        "Supertrend",
+        "Ichimoku"
+      ]
+    },
+    "volatility": {
+      "score": 50,
+      "rating": "FAIR",
+      "interpretation": "Volatility score of 50/100 assesses Bollinger Band position, Keltner Channel deviation, and ATR levels for risk sizing.",
+      "factors": [
+        "Bollinger Bands",
+        "Keltner Channels"
+      ]
+    },
+    "volume": {
+      "score": 61,
+      "rating": "GOOD",
+      "interpretation": "Volume score of 61/100 analyzes OBV trend, Money Flow Index, and Chaikin Money Flow for accumulation/distribution patterns.",
+      "factors": [
+        "OBV",
+        "MFI",
+        "CMF"
+      ]
+    },
+    "risk": {
+      "score": 44,
+      "rating": "FAIR",
+      "interpretation": "Risk score of 44/100 quantifies drawdown exposure, VaR metrics, and volatility-adjusted return potential. Elevated risk requires position sizing discipline.",
+      "factors": [
+        "Max Drawdown",
+        "VaR",
+        "Volatility"
+      ]
+    }
+  },
+  "score_breakdown": {
+    "momentum": {
+      "signal": "NEUTRAL",
+      "confidence": 0.5,
+      "weight": 0.25,
+      "contribution": 12.5
+    },
+    "trend": {
+      "signal": "NEUTRAL",
+      "confidence": 0.6833333333333332,
+      "weight": 0.25,
+      "contribution": 17.083333333333332
+    },
+    "volatility": {
+      "signal": "NEUTRAL",
+      "confidence": 0.5,
+      "weight": 0.15,
+      "contribution": 7.5
+    },
+    "volume": {
+      "signal": "SELL",
+      "confidence": 0.6166666666666667,
+      "weight": 0.15,
+      "contribution": 9.25
+    },
+    "system": {
+      "signal": "STRONG_SELL",
+      "confidence": 0.9,
+      "weight": 0.2,
+      "contribution": 18.000000000000004
+    }
+  },
+  "data_quality_score": 98.24227174694464,
+  "data_quality_grade": "EXCELLENT",
+  "annual_return": 0.24497421112172993,
+  "annual_volatility": 0.2881588183627957,
+  "sharpe_ratio": 0.7113237494736834,
+  "sortino_ratio": 0.9837871037572198,
+  "calmar_ratio": 0.6325229626254293,
+  "max_drawdown": -0.38729694508624507,
+  "hurst_exponent": 0.5988555685373493,
+  "trend_character": "TRENDING",
+  "momentum_indicators": [
+    {
+      "name": "RSI",
+      "signal": "NEUTRAL",
+      "value": 45.596639893114926,
+      "zone": "NEUTRAL",
+      "confidence": 0.5
+    },
+    {
+      "name": "STOCHASTIC",
+      "signal": "NEUTRAL",
+      "value": 46.47781655318807,
+      "zone": "NEUTRAL",
+      "confidence": 0.5
+    },
+    {
+      "name": "WILLIAMS_R",
+      "signal": "NEUTRAL",
+      "value": -26.702888099421656,
+      "zone": "NEUTRAL",
+      "confidence": 0.5
+    }
+  ],
+  "trend_indicators": [
+    {
+      "name": "MACD",
+      "signal": "SELL",
+      "value": -5.0762328851701,
+      "zone": "BEARISH",
+      "confidence": 0.6
+    },
+    {
+      "name": "ADX",
+      "signal": "SELL",
+      "value": 30.27836753378751,
+      "zone": "STRONG_BEARISH",
+      "confidence": 0.7
+    },
+    {
+      "name": "SUPERTREND",
+      "signal": "BUY",
+      "value": 242.64398498535155,
+      "zone": "UPTREND",
+      "confidence": 0.75
+    }
+  ],
+  "volatility_indicators": [
+    {
+      "name": "BOLLINGER",
+      "signal": "NEUTRAL",
+      "value": 0.45843892310319984,
+      "zone": "AT_MIDDLE",
+      "confidence": 0.5
+    },
+    {
+      "name": "KELTNER",
+      "signal": "NEUTRAL",
+      "value": 0.47590567540144885,
+      "zone": "AT_MIDDLE",
+      "confidence": 0.5
+    }
+  ],
+  "volume_indicators": [
+    {
+      "name": "OBV",
+      "signal": "SELL",
+      "value": 6282571700.0,
+      "zone": "DISTRIBUTION",
+      "confidence": 0.65
+    },
+    {
+      "name": "MFI",
+      "signal": "SELL",
+      "value": 39.53945028313005,
+      "zone": "BEARISH",
+      "confidence": 0.55
+    },
+    {
+      "name": "CMF",
+      "signal": "SELL",
+      "value": -0.1766764402793729,
+      "zone": "DISTRIBUTION",
+      "confidence": 0.65
+    }
+  ],
+  "divergences": [
+    {
+      "type": "REGULAR_BULLISH",
+      "indicator": "MACD",
+      "strength": 0.03968466288964816,
+      "bars": 29
+    }
+  ],
+  "backtest_total_return": 6.45476098560028,
+  "backtest_cagr": 0.19949562951952227,
+  "backtest_volatility": 0.22720325264620672,
+  "backtest_max_dd": 0.37297772990166767,
+  "backtest_sharpe": 0.6579819072938707,
+  "backtest_sortino": 0.8427923539774882,
+  "backtest_calmar": 0.5348727645806562,
+  "backtest_total_trades": 61,
+  "backtest_winning_trades": 21,
+  "backtest_losing_trades": 40,
+  "backtest_hit_rate": 0.3442622950819672,
+  "backtest_profit_factor": 3.165043484427871,
+  "backtest_avg_win": 17913.032585842575,
+  "backtest_avg_loss": 2971.315292771508,
+  "backtest_expectancy": 4218.378239210389,
+  "var_95": -0.022489885277534115,
+  "var_99": -0.02923685086079435,
+  "cvar_95": -0.03357624291606686,
+  "cvar_99": -0.04364911579088692,
+  "benchmark_symbol": "SPY",
+  "benchmark_correlation": 0.0,
+  "benchmark_correlation_1y": 0,
+  "benchmark_beta": 1.0,
+  "benchmark_beta_1y": 1.0,
+  "benchmark_alpha": 0.0,
+  "benchmark_info_ratio": 0,
+  "up_capture": 0.0,
+  "down_capture": 0.0,
+  "vix_current": 0.0,
+  "vix_regime": "NORMAL",
+  "vix_percentile": 0,
+  "market_context": "NEUTRAL",
+  "stationarity_adf": true,
+  "stationarity_kpss": true,
+  "normality_jb": false,
+  "autocorrelation_lb": false,
+  "arch_effects": false,
+  "stationarity_conclusion": "UNKNOWN",
+  "vol_close_to_close": 0,
+  "vol_parkinson": 0,
+  "vol_garman_klass": 0,
+  "vol_rogers_satchell": 0,
+  "vol_yang_zhang": 0,
+  "vol_composite": 0,
+  "vol_regime_p1": "NORMAL",
+  "skewness": 0.14527947226318358,
+  "kurtosis": 6.574260534133125,
+  "var_95_daily": 0.0,
+  "var_99_daily": 0.0,
+  "cvar_95_daily": 0.0,
+  "market_regime": "SIDEWAYS",
+  "regime_probability": 78.0593226265285,
+  "regime_confidence": 67.69035215714976,
+  "regime_prob_bull": 20.863579182175403,
+  "regime_prob_bear": 1.0770981912961035,
+  "regime_prob_sideways": 78.0593226265285,
+  "regime_duration_bull": 14,
+  "regime_duration_bear": 8,
+  "regime_duration_sideways": 12,
+  "current_volatility": 26.098707917985752,
+  "volatility_regime": "NORMAL",
+  "volatility_percentile": 57.979870596693026,
+  "garch_omega": 1.4202586187076754e-05,
+  "garch_alpha": 0.10048898809179829,
+  "garch_beta": 0.8541229861507728,
+  "garch_persistence": 0.954611974242571,
+  "volatility_forecast_1d": 0,
+  "volatility_forecast_5d": 0,
+  "hurst_p3": 0.5729354892462678,
+  "hurst_classification": "",
+  "hurst_r_squared": 0.9976084834007043,
+  "hurst_ci_lower": 0.5599761703670938,
+  "hurst_ci_upper": 0.5858948081254418,
+  "structural_breaks": 0,
+  "days_since_break": 2782,
+  "cusum_statistic": 0.5752491602820671,
+  "break_active": false,
+  "strategy_recommendation": "NEUTRAL",
+  "position_bias": "NEUTRAL",
+  "recommended_position_size": 23.691623255002416,
+  "recommended_stop_loss_atr": 1.5,
+  "recommended_take_profit_atr": 3.0,
+  "max_holding_days": 20,
+  "strategy_confidence": 67.69035215714976,
+  "strategy_rationale": "['Sideways market - wait for clearer regime', 'Volatility regime: HIGH', 'Hurst exponent: 0.573 (WEAK_TRENDING)']",
+  "regime_quality_score": 99.95216966801408,
+  "regime_quality_grade": "EXCELLENT",
+  "backtest_best_day": 0,
+  "backtest_worst_day": 0,
+  "backtest_positive_days": 0,
+  "backtest_positive_pct": 0,
+  "backtest_monthly_return": 0,
+  "backtest_skewness": 0.11438275620131737,
+  "backtest_kurtosis": 5.54456818780395,
+  "backtest_downside_vol": 0,
+  "backtest_avg_drawdown": 0,
+  "backtest_max_dd_duration": 0,
+  "backtest_omega": 1.0,
+  "backtest_alpha": 0,
+  "backtest_beta": 1.0,
+  "backtest_info_ratio": 0,
+  "backtest_payoff_ratio": 0,
+  "backtest_largest_win": 0,
+  "backtest_largest_loss": 0,
+  "backtest_avg_holding_days": 0,
+  "backtest_total_costs": 0,
+  "backtest_cost_per_trade": 0,
+  "backtest_cost_rate": 0,
+  "wf_periods": 0,
+  "wf_avg_is_return": 0.4916381657818249,
+  "wf_avg_oos_return": 0.1226077483855303,
+  "wf_avg_is_sharpe": 0.5212749388623907,
+  "wf_avg_oos_sharpe": 0.9059232877974204,
+  "wfe_ratio": 1.7378991780699655,
+  "walk_forward_consistency": 1.0,
+  "walk_forward_robust": true,
+  "mc_simulations": 500,
+  "monte_carlo_mean_return": 9.362096666256177,
+  "mc_return_std": 8.548744828374529,
+  "mc_return_ci_lower": 0.0,
+  "mc_return_ci_upper": 0.0,
+  "mc_sharpe_mean": 0.8304223567922447,
+  "mc_sharpe_ci_lower": 0.0,
+  "mc_sharpe_ci_upper": 0.0,
+  "monte_carlo_p_positive": 0.0,
+  "mc_p_sharpe_above_1": 0.0,
+  "sizing_kelly_optimal": 0,
+  "sizing_kelly_half": 0,
+  "sizing_vol_scaled": 0,
+  "performance_grade": "AVERAGE",
+  "risk_level": "MODERATE",
+  "alpha_confidence": 80.0,
+  "strategy_robustness": 52.91666666666666,
+  "alpha": 11.18946795294742,
+  "beta": 0.6009147848750257,
+  "r_squared": 0.22200814540564429,
+  "alpha_t_stat": 1.8545124528746515,
+  "alpha_p_value": 0.06377170391934528,
+  "alpha_significant": false,
+  "return_systematic": 4.014023827622426,
+  "return_idiosyncratic": 10.943382286781105,
+  "skill_contribution": 73.1636368169676,
+  "tracking_error": 21.269950555372947,
+  "information_ratio": 0.3891664329223393,
+  "perf_bull_return": 536.4268650274812,
+  "perf_bull_sharpe": 1.0844242236135386,
+  "perf_bull_max_dd": 21.25408594115689,
+  "perf_bull_days": 1763,
+  "perf_bear_return": -13.320016513674894,
+  "perf_bear_sharpe": -0.5581308404563461,
+  "perf_bear_max_dd": 31.060492141664074,
+  "perf_bear_days": 523,
+  "perf_sideways_return": 35.13455002227195,
+  "perf_sideways_sharpe": 0.5142495351333247,
+  "perf_sideways_max_dd": 22.360958098685508,
+  "perf_sideways_days": 496,
+  "perf_low_vol_return": 208.35652039463014,
+  "perf_low_vol_sharpe": 2.4399434917642604,
+  "perf_normal_vol_return": 107.39781154898122,
+  "perf_normal_vol_sharpe": 0.3963364690467717,
+  "perf_high_vol_return": 16.264692655942238,
+  "perf_high_vol_sharpe": 0.18499037655464506,
+  "perf_crisis_return": 0.2602007957867247,
+  "perf_crisis_sharpe": -0.17298673138339835,
+  "information_coefficient": -0.004760276071119176,
+  "ic_t_stat": -0.25094661061906265,
+  "signal_quality_grade": "POOR",
+  "hit_rate_long": 52.77777777777778,
+  "hit_rate_flat": 53.63636363636364,
+  "signal_persistence": 22.99173553719008,
+  "annual_turnover": 10.964401294498382,
+  "stress_covid_crash": -8.251466634624826,
+  "stress_covid_recovery": 96.4975207708934,
+  "stress_2022_bear": -11.853395384092236,
+  "stress_2022_recovery": 26.537005901132595,
+  "stress_2018_q4": -12.43355415725711,
+  "stress_2018_recovery": 25.059167164735353,
+  "stress_tests_passed": 4,
+  "stress_tests_total": 8,
+  "total_drawdown_periods": 5,
+  "avg_drawdown_duration": 1,
+  "avg_recovery_time": 1,
+  "investment_thesis": "Apple presents a challenging risk/reward profile at $258.27, positioned precariously between technical support and resistance with conflicting directional signals across indicator families. The equity demonstrates institutional-quality characteristics with a 24.5% annual return and Sharpe ratio of 0.71, supported by a trending market profile (Hurst exponent 0.60) that historically favors momentum strategies. However, current technical architecture reveals significant internal deterioration: Ichimoku cloud analysis generates a strong sell signal with price trading below the cloud at $266.31-$276.68, while volume indicators uniformly signal distribution with OBV below its 21-day MA, MFI at 39.5, and CMF printing -0.177 indicating sustained selling pressure. The ADX reading of 30.3 with -DI dominance confirms strong bearish directional movement, yet a regular bullish divergence on MACD spanning 29 bars suggests potential exhaustion of downside momentum. With price trading at 0.46 Bollinger Band position and RSI neutrally positioned at 45.6, the setup lacks the conviction required for aggressive capital deployment, though the 6.1% distance to Supertrend support at $242.64 provides a clearly defined risk parameter for tactical positioning.",
+  "executive_summary": "This analysis recommends a defensive HOLD position with minimal 3% portfolio allocation, reflecting the weak technical setup characterized by 56% confidence SELL signal strength and conflicting indicator readings across momentum (neutral), trend (neutral), and volume (bearish) families. The equity's excellent data quality score of 98.2% and robust long-term performance metrics (24.5% annual return, 0.98 Sortino ratio) establish fundamental credibility, yet near-term technical deterioration warrants caution. Critical risk factors include the 38.7% maximum drawdown exposure, elevated kurtosis of 6.57 indicating fat-tail risk, and strong bearish Ichimoku configuration with price $7.82 below cloud support. The risk/reward calculation offers 1.52:1 ratio to the $282 target against $242.64 stop loss, falling short of institutional 2.5:1 requirements but providing asymmetric upside if the 29-bar MACD bullish divergence catalyzes reversal. Volume analysis reveals concerning distribution patterns with all three volume indicators bearish, suggesting institutional selling pressure that typically precedes further downside. Position sizing at 3% reflects high conviction in risk management rather than directional bias, preserving capital for superior opportunities while maintaining exposure to potential mean reversion from oversold conditions.",
+  "technical_analysis": "The technical architecture reveals a security in transitional flux, trading at $258.27 within a well-defined Bollinger Band range of $240.57-$279.18 (0.46 band position) with expanding volatility suggesting increased uncertainty and potential breakout conditions. Price structure shows critical resistance at the Keltner upper band ($269.62) and formidable overhead supply at the Ichimoku cloud base ($266.31), creating a 3.1% resistance zone that has capped recent rallies. The Supertrend indicator at $242.64 paradoxically signals bullish (price 6.1% above) while ADX directional indicators show strong bearish momentum, exemplifying the conflicting technical narrative that undermines conviction. Momentum oscillators cluster in neutral territory with RSI at 45.6, Stochastic at 46.5, and Williams %R at -26.7, indicating neither overbought nor oversold extremes but rather equilibrium that typically precedes volatility expansion. The MACD histogram contraction from bearish territory combined with the 29-bar regular bullish divergence suggests diminishing selling pressure, though the indicator remains below zero at -5.08, requiring zero-line crossover for trend confirmation. Volume analysis provides the most decisive signal with OBV distribution, MFI at 39.5 (below 40 threshold), and CMF at -0.177 collectively indicating institutional capital rotation away from the equity, a pattern that historically precedes 2-4 week consolidation or correction phases before sustainable reversals materialize.",
+  "backtest_analysis": "The systematic strategy backtest demonstrates robust long-term alpha generation with 645% total return and 19.9% CAGR over the testing period, though operational characteristics reveal significant friction costs and execution challenges. The 34.4% hit rate across 61 trades indicates a momentum-based approach that captures large winners while tolerating frequent small losses, validated by the exceptional 3.17 profit factor and asymmetric payoff profile where average wins of $17,913 dwarf average losses of $2,971 by 6.03x. This positive expectancy of $4,218 per trade supports systematic deployment despite below-50% win rate, characteristic of trend-following strategies in trending markets (Hurst 0.60). However, the 37.3% maximum drawdown exposure presents material risk to capital preservation, requiring position sizing discipline and psychological fortitude during inevitable drawdown periods. The strategy's 0.66 Sharpe ratio and 0.84 Sortino ratio indicate acceptable risk-adjusted returns, though the 0.53 Calmar ratio suggests drawdown recovery efficiency could be optimized through tighter risk management protocols. Critical to current deployment: the strategy generated 23.1% annual return with 22.7% volatility, closely matching the underlying security's 24.5% return and 28.8% volatility, indicating the systematic approach captures most available alpha while reducing volatility by 21% through disciplined entry/exit rules. The 40 losing trades versus 21 winners in backtest aligns with current weak signal environment, suggesting the probability-weighted expectation favors patience over aggressive entry at present levels.",
+  "risk_analysis": "The risk profile presents elevated tail risk characteristics requiring defensive position sizing and rigorous stop-loss discipline, with Value-at-Risk metrics indicating potential daily losses exceeding 2.25% at 95% confidence and 2.92% at 99% confidence under normal market conditions. The Conditional VaR measurements of -3.36% (95%) and -4.36% (99%) reveal meaningful left-tail exposure, quantifying expected losses during stress events that exceed simple VaR thresholds by 49% and 49% respectively, consistent with the elevated kurtosis reading of 6.57 that signals fat-tail distribution. Maximum drawdown exposure of 38.7% on the underlying security and 37.3% on the systematic strategy indicates vulnerability to extended correction cycles, requiring 63% recovery rally to return to peak levels\u2014a mathematical reality that demands 6.1% stop-loss discipline at the $242.64 Supertrend level to prevent catastrophic capital impairment. The 28.8% annualized volatility significantly exceeds broad market volatility, creating both opportunity and risk through amplified daily price movements that can trigger premature stop-outs or provide attractive entry points. Current risk/reward calculation of 1.52:1 ($23.73 upside to $282 target versus $15.63 downside to stop) falls materially short of institutional 2.5:1 requirements, mathematically justifying the 3% position size that limits portfolio-level loss to 18 basis points if stopped out. The positive skewness of 0.15 provides modest comfort that extreme positive returns occur more frequently than extreme negative returns, though this asymmetry is insufficient to offset the elevated volatility and drawdown risks in the current conflicting technical environment where volume distribution and Ichimoku bearishness suggest further downside exploration before sustainable reversal.",
+  "scenarios": [
+    {
+      "name": "Bull",
+      "probability": 0.25,
+      "target": 285.0,
+      "return_pct": 10.34,
+      "drivers": [
+        "MACD bullish divergence confirms with zero-line crossover triggering momentum reversal",
+        "Volume accumulation emerges with OBV breaking above 21-day MA and CMF turning positive",
+        "Price breaks above Ichimoku cloud resistance at $276.68 with expanding volume",
+        "Broader market risk-on sentiment drives technology sector rotation"
+      ],
+      "risks": [
+        "Failed breakout at cloud resistance triggers short-term profit-taking",
+        "Macro headwinds or sector rotation limits upside momentum"
+      ]
+    },
+    {
+      "name": "Base",
+      "probability": 0.5,
+      "target": 265.0,
+      "return_pct": 2.61,
+      "drivers": [
+        "Continued consolidation within Bollinger Band range as momentum oscillators remain neutral",
+        "Mixed volume signals and conflicting trend indicators perpetuate rangebound trading",
+        "Price respects Keltner middle band at $258.79 as equilibrium level"
+      ],
+      "risks": [
+        "Extended consolidation tests investor patience and triggers position exits",
+        "Volatility compression precedes sharp directional move in either direction"
+      ]
+    },
+    {
+      "name": "Bear",
+      "probability": 0.25,
+      "target": 242.0,
+      "return_pct": -6.3,
+      "drivers": [
+        "Distribution pattern confirmed as OBV, MFI, and CMF deterioration accelerates",
+        "ADX bearish directional signal intensifies with -DI expanding above +DI",
+        "Price breaks below Supertrend support at $242.64 triggering systematic stop-loss selling",
+        "Ichimoku cloud resistance proves insurmountable on rally attempts"
+      ],
+      "risks": [
+        "Oversold conditions trigger sharp mean-reversion rally from support levels",
+        "Bullish divergence materializes faster than anticipated"
+      ]
+    }
+  ],
+  "catalysts": [
+    "MACD zero-line crossover within 5-8 trading sessions confirming bullish divergence resolution and momentum shift from bearish to bullish regime",
+    "Volume accumulation signal with OBV breaking above 21-day moving average accompanied by CMF turning positive above -0.05 threshold within 2-3 weeks",
+    "Ichimoku cloud breakout above $276.68 with price closing above cloud on expanding volume, triggering systematic buy signals across trend-following algorithms",
+    "Bollinger Band squeeze resolution as volatility contracts below 20-day average then expands directionally, typically occurring within 10-15 trading sessions"
+  ],
+  "risks": [
+    "Maximum drawdown extension beyond 38.7% historical level if price violates $242.64 Supertrend support; mitigate through disciplined 6.1% stop-loss and 3% position sizing limiting portfolio impact to 18bps",
+    "Volume distribution intensification with OBV, MFI, and CMF deteriorating further signals institutional selling pressure; monitor daily volume patterns and reduce position if CMF drops below -0.20",
+    "Ichimoku cloud resistance at $266.31-$276.68 proves insurmountable on rally attempts creating failed breakout pattern; avoid adding to position until daily close above $277 confirms cloud breakout",
+    "Elevated kurtosis of 6.57 and fat-tail VaR characteristics increase probability of gap-down events exceeding normal distribution expectations; utilize options strategies for tail risk hedging if position size exceeds 5%"
+  ],
+  "levels": {
+    "bb_upper": 279.17750261489283,
+    "bb_middle": 259.87449645996094,
+    "bb_lower": 240.57149030502904,
+    "kc_upper": 269.6186113866619,
+    "kc_lower": 247.9648329724749,
+    "ichimoku_cloud_top": 276.6800079345703,
+    "ichimoku_cloud_bottom": 266.30999755859375,
+    "supertrend": 242.64398498535155
+  },
+  "bullish_signals": 0,
+  "bearish_signals": 2,
+  "neutral_signals": 3,
+  "model_used": "claude-sonnet-4-5-20250929",
+  "tokens_used": 2910,
+  "generation_time_ms": 68948.8308429718
+}

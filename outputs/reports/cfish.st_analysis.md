@@ -1,0 +1,198 @@
+# Technical Analysis Report: CFISH.ST
+
+## Crunchfish AB (publ)
+
+| Field | Value |
+|-------|-------|
+| Sector | Technology |
+| Industry | Software - Application |
+| Analysis Period | 2024-10-31 to 2026-01-28 |
+| Total Records | 306 daily |
+| Report Generated | 2026-01-28 22:19:58 |
+
+---
+
+## Executive Summary
+
+### Overall Signal
+
+| Metric | Value |
+|--------|-------|
+| Direction | **NEUTRAL** |
+| Confidence | 52.5% |
+| Strength | WEAK |
+| Volatility Regime | EXTREME |
+
+### Trading Recommendation
+
+> NO TRADE: Weak or conflicting signals. Preserve capital and wait for better opportunity.
+
+### Signal Distribution
+
+- Bullish Families: 2
+- Bearish Families: 1
+- Neutral Families: 2
+
+---
+
+## Data Quality Assessment
+
+| Dimension | Score | Weight | Status |
+|-----------|-------|--------|--------|
+| Completeness | 100.0 | 40% | Pass |
+| Accuracy | 93.8 | 30% | Pass |
+| Consistency | 100.0 | 20% | Pass |
+| Timeliness | 100.0 | 10% | Pass |
+| **Overall** | **98.1/100** | - | **EXCELLENT** |
+
+---
+
+## Market Profile
+
+### Returns and Risk
+
+| Metric | Value |
+|--------|-------|
+| Annualized Return | +120.66% |
+| Annualized Volatility | 127.03% |
+| Sharpe Ratio | 0.918 |
+| Sortino Ratio | 1.939 |
+| Maximum Drawdown | -64.42% |
+| Calmar Ratio | 1.873 |
+
+### Distribution Properties
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| Skewness | +1.939 | Right-tailed |
+| Kurtosis | 8.492 | Fat tails (leptokurtic) |
+| Hurst Exponent | 0.622 | TRENDING |
+
+---
+
+## Statistical Tests
+
+| Test | Hypothesis | Result | Interpretation |
+|------|------------|--------|----------------|
+| Jarque-Bera | Normality | FAIL | Non-normal distribution |
+| ADF | Unit Root | PASS | Stationary |
+| KPSS | Trend Stationary | PASS | Trend stationary |
+| Ljung-Box | Autocorrelation | NONE | No autocorrelation |
+| ARCH | Vol Clustering | NONE | Homoscedastic |
+
+---
+
+## Indicator Family Analysis
+
+
+### MOMENTUM (Weight: 25%)
+
+**Signal:** NEUTRAL | **Confidence:** 50%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| RSI | NEUTRAL | 50% | BULLISH | RSI neutral at 50.9 |
+| STOCHASTIC | NEUTRAL | 50% | NEUTRAL | Stochastic neutral at 45.0 |
+| WILLIAMS_R | NEUTRAL | 50% | NEUTRAL | Williams %R neutral at -59.0 |
+
+### TREND (Weight: 25%)
+
+**Signal:** BUY | **Confidence:** 58%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| MACD | BUY | 60% | BULLISH | Histogram expanding bullish |
+| ADX | NEUTRAL | 40% | WEAK_BULLISH | Weak/no trend (ADX=20.5) |
+| SUPERTREND | BUY | 75% | UPTREND | Price 33.6% from Supertrend |
+
+### VOLATILITY (Weight: 15%)
+
+**Signal:** NEUTRAL | **Confidence:** 52%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| BOLLINGER | NEUTRAL | 50% | AT_MIDDLE | Price in middle zone (%B=0.49) |
+| KELTNER | BUY | 55% | MIDDLE_UPPER | Price above Keltner middle (bullish) |
+
+### VOLUME (Weight: 15%)
+
+**Signal:** BUY | **Confidence:** 65%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| OBV | BUY | 65% | ACCUMULATION | OBV above its 21-day MA (accumulation) |
+| MFI | SELL | 55% | BEARISH | MFI bearish at 47.7 |
+| CMF | STRONG_BUY | 75% | STRONG_ACCUMULATION | Strong buying pressure (CMF=0.295) |
+
+### SYSTEM (Weight: 20%)
+
+**Signal:** SELL | **Confidence:** 70%
+
+| Indicator | Signal | Confidence | Zone | Key Factor |
+|-----------|--------|------------|------|------------|
+| ICHIMOKU | SELL | 70% | BEARISH | Price inside cloud |
+
+
+---
+
+## Key Technical Levels
+
+| Level | Price |
+|-------|-------|
+| Bollinger Upper | $3.59 |
+| Bollinger Middle | $2.77 |
+| Bollinger Lower | $1.94 |
+| Keltner Upper | $3.39 |
+| Keltner Lower | $2.07 |
+| Supertrend | $1.83 |
+| Ichimoku Cloud Top | $2.95 |
+| Ichimoku Cloud Bottom | $2.62 |
+
+
+## Divergence Analysis
+
+| Type | Indicator | Strength | Duration |
+|------|-----------|----------|----------|
+| REGULAR_BULLISH | MACD | 85% | 8 bars |
+| HIDDEN_BEARISH | MACD | 100% | 21 bars |
+
+
+## Risk Assessment
+
+- Mixed signals across indicator families
+
+
+## Volatility Analysis (7 Estimators)
+
+| Estimator | Value |
+|-----------|-------|
+| Close to Close | 152.94% |
+| Parkinson | 127.88% |
+| Garman-Klass | 126.98% |
+| Rogers-Satchell | 133.98% |
+| Yang-Zhang | 71.32% |
+| GKYZ | 133.94% |
+| Hodges-Tompkins | 159.43% |
+| Composite | 126.12% |
+
+
+---
+
+## Data Provenance
+
+| Field | Value |
+|-------|-------|
+| Source | yahoo_finance |
+| Fetch Timestamp | 2026-01-28T22:18:32.704078 |
+| Data Hash (SHA-256) | `6cf128635da3ddc5` |
+| Daily Records | 306 |
+| Weekly Records | 66 |
+| Monthly Records | 16 |
+| Pipeline Version | 1.0.0 |
+| Engine Version | 2.0.0 |
+
+---
+
+*Generated by Quantitative Technical Analysis Agent v1.0.0*
+
+*MSc AI Agents in Asset Management - Track B: Technical Analyst Agent*
